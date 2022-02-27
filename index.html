@@ -17,17 +17,20 @@
             }
           }
         }
-      </script>
-        <style type="text/tailwindcss">
-            @layer utilities {
-              .image-placeholder:before {
-                content: 'Designer';
-              }
-              .image-placeholder:after {
-                  content: 'Developer';
-              }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .container {
+                margin: 0 auto;
             }
-          </style>
+            .image-placeholder:before {
+            content: 'Designer';
+            }
+            .image-placeholder:after {
+                content: 'Developer';
+            }
+        }
+        </style>
     <title>Josh Murtha</title>
 </head>
 
@@ -35,24 +38,64 @@
     <header id="header" class="site-header">
         <a href="#main" class="skip-link">Skip to main</a>
     </header>
-    <div class="container">
         <section class="hero">
-            <h1>Josh Murtha</h1>
-            <p>Catchy tagline subheading will go here eventually.</p>
-            <div class="image-placeholder w-20 h-20 rounded-full bg-indigo-700"></div>
+            <div class="container">
+                <h1>Josh Murtha</h1>
+                <p>Catchy tagline subheading will go here eventually.</p>
+                <div class="image-placeholder w-20 h-20 rounded-full bg-indigo-700"></div>
+            </div>
         </section>
         <section class="bio">
-            <h2>Bio</h2>
-            <small>Adjust length</small>
-            <div class="flex">
-                <i class="material-icons-round">format_list</i>
-                <i class="material-icons-round">description</i>
-                <i class="material-icons-round">auto_stories</i>
+            <div class="container">
+                <h2>Bio</h2>
+                <small>Adjust length</small>
+                <div class="flex">
+                    <i class="material-icons-round">format_list</i>
+                    <i class="material-icons-round">description</i>
+                    <i class="material-icons-round">auto_stories</i>
+                </div>
+                <p>Put a bullet point bio here in a ul</p>
+                <p>Put a one paragraph bio here</p>
+                <p>Put a longer, multi-paragraph bio here and hide/show them.</p>
             </div>
-            <p>Put a bullet point bio here in a ul</p>
-            <p>Put a one paragraph bio here</p>
-            <p>Put a longer, multi-paragraph bio here and hide/show them.</p>
         </section>
-    </div>   
+        <section class="ux">
+            <div class="container">
+                <h2>UX</h2>
+                <p><strong>Philosophy:</strong>Someone with a bigger research budget than us probably already solved this problem.</p>
+                <p><strong>Skills:</strong>Competitive analysis • UX research • Information archtitechture • Wireframing • Interactive prototyping • Usability testing</p>
+                <p><strong>Tools:</strong>Figma • Index cards • Sticky notes (gotta have sticky notes) • Paper & pencil</p>
+            </div>
+        </section>
+        <section class="ui">
+            <div class="container">
+                <h2>UI</h2>
+                <p><strong>Philosophy:</strong> It takes a truly great interface to be better than no interface at all.</p>
+                <p><strong>Skills:</strong>Design systems • Hi-fi interface mockups • Interaction design • 3D prototyping • Branding</p>
+                <p><strong>Tools:</strong>Figma • Principle • Sketch (if I have to) • Shapes VR for Oculus</p>
+            </div>
+        </section>
+        <section class="fe">
+            <div class="container">
+                <h2>FE</h2>
+                <p><strong>Philosophy:</strong>Make it simple, make it stable.</p>
+                <p><strong>Skills:</strong>Accessible semantic markup • Efficient styling • Lightweight JS</p>
+                <p><strong>Tools:</strong>HTML • CSS • Sass • Tailwind • JS • React • Svelte</p>
+            </div>
+        </section>
+        <section class="social">
+            <div class="container">
+                <ul class="flex">
+                    <div class="github">github</div>
+                    <div class="dribbble">dribbble</div>
+                    <div class="twitter">twitter</div>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+
+            </div>
+        </section>  
 </body>
 </html>
