@@ -10,11 +10,19 @@ if (document.querySelector('input[name="bio-length"]')) {
     document.querySelectorAll('input[name="bio-length"]').forEach((elem) => {
       elem.addEventListener("change", function(event) {
         if (bioButtonShort.checked) {
-            console.log('bio one firing');
+            shortBio.classList.remove('hidden')
+            mediumBio.classList.add('hidden')
+            longBio.classList.add('hidden')
         } else if (bioButtonMedium.checked) {
-            console.log('bio two firing');
+            shortBio.classList.add('hidden')
+            mediumBio.classList.remove('hidden')
+            longBio.classList.add('hidden')
         } else if (bioButtonLong.checked) {
-            console.log('bio three firing');
+            shortBio.classList.add('hidden')
+            mediumBio.classList.add('hidden')
+            longBio.classList.remove('hidden')
+        } else {
+            return
         }
       });
     });
