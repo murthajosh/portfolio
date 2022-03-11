@@ -18,13 +18,14 @@
           }
         }
     </script>
+    <script defer src="index.js"></script>
     <style type="text/tailwindcss">
         @layer utilities {
             .container {
                 margin: 0 auto;
             }
         }
-        </style>
+    </style>
     <title>Josh Murtha</title>
 </head>
 
@@ -41,26 +42,25 @@
             <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24 text-center">
                 <div class="basis-1/2">
                     <small>Adjust bio length</small>
-                        <fieldset class="flex justify-around">
-                            <div class="cursor-pointer">
-                                <input type="radio" id="bio-short" name="bio-length" value="short" class="cursor-pointer hidden"
-                                    checked>
-                                <label for="bio-short" class="material-icons-round cursor-pointer">list</label>
-                            </div>
-                            
-                            <div class="cursor-pointer">
-                                <input type="radio" id="bio-medium" name="bio-length" value="medium" class="cursor-pointer hidden">
-                                <label for="bio-medium" class="material-icons-round cursor-pointer">description</label>
-                            </div>
-                            
-                            <div class="cursor-pointer">
-                                <input type="radio" id="bio-long" name="bio-length" value="long" class="cursor-pointer hidden">
-                                <label for="bio-long" class="material-icons-round cursor-pointer">auto_stories</label>
-                            </div>
-                        </fieldset>
-                        <p class="hidden" id="short-bio">Bio 1. Short.</p>
-                        <p class="hidden" id="medium-bio">Bio 2. Medium Length.</p>
-                        <p class="hidden" id="long-bio">Bio 3. Longest of all bios.</p>
+                    <fieldset class="flex justify-around">
+                        <div class="cursor-pointer">
+                            <input type="radio" id="bio-short" name="bio-length" value="short" class="cursor-pointer" checked>
+                            <label for="bio-short" class="material-icons-round cursor-pointer">list</label>
+                        </div>
+                        
+                        <div class="cursor-pointer">
+                            <input type="radio" id="bio-medium" name="bio-length" value="medium" class="cursor-pointer">
+                            <label for="bio-medium" class="material-icons-round cursor-pointer">description</label>
+                        </div>
+                        
+                        <div class="cursor-pointer">
+                            <input type="radio" id="bio-long" name="bio-length" value="long" class="cursor-pointer">
+                            <label for="bio-long" class="material-icons-round cursor-pointer">auto_stories</label>
+                        </div>
+                    </fieldset>
+                    <p class="" id="short-bio">Bio 1. Short.</p>
+                    <p class="hidden" id="medium-bio">Bio 2. Medium Length.</p>
+                    <p class="hidden" id="long-bio">Bio 3. Longest of all bios.</p>
                 </div>
             </div>
         </section>
