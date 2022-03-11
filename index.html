@@ -28,20 +28,20 @@
     <title>Josh Murtha</title>
 </head>
 
-<body>
+<body class="font-normal text-slate-700 leading-relaxed">
     <header id="header" class="site-header">
         <a href="#main" class="skip-link">Skip to main</a>
     </header>
         <section class="hero">
             <div class="container">
-                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center font-bold">Lorem Ips</h1>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center font-bold text-indigo-600">Lorem Ips</h1>
                 <p class="text-base md:text-lg font-bold text-center">Catchy tagline subheading will go here eventually.</p>
         </section>
         <section class="bio">
             <div class="container">
                 <div class="flex">
                     <div class="basis-1/2">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">Bio</h2>
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">Bio</h2>
                         <small>Adjust length</small>
                           <div class="flex justify-around">
                             <div>
@@ -64,7 +64,7 @@
                           <p>Put a one paragraph bio here</p>
                           <p>Put a longer, multi-paragraph bio here and hide/show them.</p>
                     </div>
-                    <div class="basis-1/2 bg-indigo-600">
+                    <div class="basis-1/2">
                         image here
                     </div>
                 </div>
@@ -72,45 +72,84 @@
         </section>
         <section class="ux">
             <div class="container">
-                <div class="flex">
-                    <div class="basis-1/2 bg-indigo-600">
-                        <img src="/assets/graphic-ux.webp" alt="Wireframe Graphic Representing UX">
+                <div class="flex items-center">
+                    <div class="basis-1/2">
+                        <img src="./assets/graphic-ux.webp" alt="Wireframe Graphic Representing UX" class="drop-shadow-lg">
                     </div>
                     <div class="basis-1/2">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">UX</h2>
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">UX</h2>
                          <p>Keep close contact with your users. Don't reinvent the wheel.</p>
-                         <p><strong>Skills: </strong>Competitive analysis • UX research • Information archtitechture • Wireframing • Interactive prototyping • Usability testing</p>
-                         <p><strong>Tools: </strong>Figma • Index cards • Sticky notes (gotta have sticky notes) • Paper & pencil</p>
+                         <ul>
+                             <li><strong>Skills: </strong></li>
+                             <li><p>Competitive analysis</p></li>
+                             <li><p>UX research</p></li>
+                             <li><p>Information archtitechture</p></li>
+                             <li><p>Wireframing</p></li>
+                             <li><p>User testing</p></li>
+                         </ul>
+                         <ul>
+                            <li><strong>Tools: </strong></li>
+                            <li><p>Figma</p></li>
+                            <li><p>Index cards & sticky notes</p></li>
+                            <li><p>Paper & pencil</p></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
         <section class="ui">
             <div class="container">
-                <div class="flex">
+                <div class="flex items-center">
                     <div class="basis-1/2">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">UI</h2>
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">UI</h2>
                         <p>Make them forget there's an interface.</p>
-                        <p><strong>Skills: </strong>Design systems • Hi-fi interface mockups • Interaction design • 3D prototyping • Branding</p>
-                        <p><strong>Tools: </strong>Figma • Principle • Sketch (if I have to) • Shapes VR for Oculus</p>
+                        <ul>
+                            <li><strong>Skills: </strong></li>
+                            <li><p>Design systems</p></li>
+                            <li><p>Hi-fi mockups & prototypes</p></li>
+                            <li><p>IXD</p></li>
+                            <li><p>Branding & Graphic design</p></li>
+                            <li><p>User testing</p></li>
+                        </ul>
+                        <ul>
+                           <li><strong>Tools: </strong></li>
+                           <li><p>Figma</p></li>
+                           <li><p>SKetch</p></li>
+                           <li><p>Principle</p></li>
+                           <li><p>Sketch</p></li>
+                           <li><p>Shapes VR</p></li>
+                       </ul>
                     </div>
-                    <div class="basis-1/2 bg-indigo-600">
-                        <img src="/assets/graphic-ui.webp" alt="Artsy Device Graphic Representing UI">
+                    <div class="basis-1/2">
+                        <img src="./assets/graphic-ui.webp" alt="Artsy Device Graphic Representing UI" class="drop-shadow-lg">
                     </div>
                 </div>
             </div>
         </section>
         <section class="fe">
             <div class="container">
-                <div class="flex">
-                    <div class="basis-1/2 bg-indigo-600">
-                        <img src="/assets/graphic-fe.webp" alt="Code Graphic Representing Front End">
+                <div class="flex items-center">
+                    <div class="basis-1/2">
+                        <img src="./assets/graphic-fe.webp" alt="Code Graphic Representing Front End" class="drop-shadow-lg">
                     </div>
                     <div class="basis-1/2">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">FE</h2>
-                        <p>>Build it simple and stable.</p>
-                        <p><strong>Skills: </strong>Accessible semantic markup • Efficient organized styling • Lightweight JS</p>
-                        <p><strong>Tools: </strong>HTML • CSS • Sass • Tailwind • JS • React • Svelte</p>
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">FE</h2>
+                        <p>Build it simple and stable.</p>
+                        <ul>
+                            <li><strong>Skills: </strong></li>
+                            <li><p>Semantic markup</p></li>
+                            <li><p>Accessibility</p></li>
+                            <li><p>EFficient styling</p></li>
+                            <li><p>Clean javascript </p></li>
+                        </ul>
+                        <ul>
+                           <li><strong>Tools: </strong></li>
+                           <li><p>HTML</p></li>
+                           <li><p>CSS</p></li>
+                           <li><p>PostCSS</p></li>
+                           <li><p>Tailwind</p></li>
+                           <li><p>JavaScript</p></li>
+                       </ul>
                     </div>
                 </div>
             </div>
