@@ -33,45 +33,39 @@
         <a href="#main" class="skip-link">Skip to main</a>
     </header>
         <section class="hero">
-            <div class="container">
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24">
                 <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center font-bold text-indigo-600">Lorem Ips</h1>
                 <p class="text-base md:text-lg font-bold text-center">Catchy tagline subheading will go here eventually.</p>
         </section>
         <section class="bio">
-            <div class="container">
-                <div class="flex">
-                    <div class="basis-1/2">
-                        <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">Bio</h2>
-                        <small>Adjust length</small>
-                          <div class="flex justify-around">
-                            <div>
-                                <input type="radio" id="bio-short" name="bio-length" value="short"
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24 text-center">
+                <div class="basis-1/2">
+                    <small>Adjust bio length</small>
+                        <fieldset class="flex justify-around">
+                            <div class="cursor-pointer">
+                                <input type="radio" id="bio-short" name="bio-length" value="short" class="cursor-pointer hidden"
                                     checked>
-                                <label for="bio-short" class="material-icons-round">list</label>
+                                <label for="bio-short" class="material-icons-round cursor-pointer">list</label>
                             </div>
                             
-                            <div>
-                                <input type="radio" id="bio-medium" name="bio-length" value="medium">
-                                <label for="bio-medium" class="material-icons-round">description</label>
+                            <div class="cursor-pointer">
+                                <input type="radio" id="bio-medium" name="bio-length" value="medium" class="cursor-pointer hidden">
+                                <label for="bio-medium" class="material-icons-round cursor-pointer">description</label>
                             </div>
                             
-                            <div>
-                                <input type="radio" id="bio-long" name="bio-length" value="long">
-                                <label for="bio-long" class="material-icons-round">auto_stories</label>
+                            <div class="cursor-pointer">
+                                <input type="radio" id="bio-long" name="bio-length" value="long" class="cursor-pointer hidden">
+                                <label for="bio-long" class="material-icons-round cursor-pointer">auto_stories</label>
                             </div>
-                          </div>
-                          <p>Put a bullet point bio here in a ul</p>
-                          <p>Put a one paragraph bio here</p>
-                          <p>Put a longer, multi-paragraph bio here and hide/show them.</p>
-                    </div>
-                    <div class="basis-1/2">
-                        image here
-                    </div>
+                        </fieldset>
+                        <p class="hidden" id="short-bio">Bio 1. Short.</p>
+                        <p class="hidden" id="medium-bio">Bio 2. Medium Length.</p>
+                        <p class="hidden" id="long-bio">Bio 3. Longest of all bios.</p>
                 </div>
             </div>
         </section>
         <section class="ux">
-            <div class="container">
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24">
                 <div class="flex items-center">
                     <div class="basis-1/2">
                         <img src="./assets/graphic-ux.webp" alt="Wireframe Graphic Representing UX" class="drop-shadow-lg">
@@ -80,44 +74,44 @@
                         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">UX</h2>
                          <p>Keep close contact with your users. Don't reinvent the wheel.</p>
                          <ul>
-                             <li><strong>Skills: </strong></li>
-                             <li><p>Competitive analysis</p></li>
-                             <li><p>UX research</p></li>
-                             <li><p>Information archtitechture</p></li>
-                             <li><p>Wireframing</p></li>
-                             <li><p>User testing</p></li>
+                             <li><strong>Skills</strong></li>
+                             <li class="inline-block"><p>Competitive Analysis • </p></li>
+                             <li class="inline-block"><p>UX Research • </p></li>
+                             <li class="inline-block"><p>Information Archtitechture • </p></li>
+                             <li class="inline-block"><p>Wireframing • </p></li>
+                             <li class="inline-block"><p>User Testing</p></li>
                          </ul>
                          <ul>
-                            <li><strong>Tools: </strong></li>
-                            <li><p>Figma</p></li>
-                            <li><p>Index cards & sticky notes</p></li>
-                            <li><p>Paper & pencil</p></li>
+                            <li><strong>Tools</strong></li>
+                            <li class="inline-block"><p>Figma • </p></li>
+                            <li class="inline-block"><p>Index Cards & Sticky Notes • </p></li>
+                            <li class="inline-block"><p>Paper & Pencil • </p></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
         <section class="ui">
-            <div class="container">
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24">
                 <div class="flex items-center">
                     <div class="basis-1/2">
                         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">UI</h2>
                         <p>Make them forget there's an interface.</p>
                         <ul>
-                            <li><strong>Skills: </strong></li>
-                            <li><p>Design systems</p></li>
-                            <li><p>Hi-fi mockups & prototypes</p></li>
-                            <li><p>IXD</p></li>
-                            <li><p>Branding & Graphic design</p></li>
-                            <li><p>User testing</p></li>
+                            <li><strong>Skills</strong></li>
+                            <li class="inline-block"><p>Design Systems • </p></li>
+                            <li class="inline-block"><p>Hi-fi Mockups & Prototypes • </p></li>
+                            <li class="inline-block"><p>IXD • </p></li>
+                            <li class="inline-block"><p>Branding & Graphic Design • </p></li>
+                            <li class="inline-block"><p>User Testing</p></li>
                         </ul>
                         <ul>
-                           <li><strong>Tools: </strong></li>
-                           <li><p>Figma</p></li>
-                           <li><p>SKetch</p></li>
-                           <li><p>Principle</p></li>
-                           <li><p>Sketch</p></li>
-                           <li><p>Shapes VR</p></li>
+                           <li><strong>Tools</strong></li>
+                           <li class="inline-block"><p>Figma • </p></li>
+                           <li class="inline-block"><p>Sketch • </p></li>
+                           <li class="inline-block"><p>Principle • </p></li>
+                           <li class="inline-block"><p>Sketch • </p></li>
+                           <li class="inline-block"><p>Shapes VR</p></li>
                        </ul>
                     </div>
                     <div class="basis-1/2">
@@ -127,7 +121,7 @@
             </div>
         </section>
         <section class="fe">
-            <div class="container">
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24">
                 <div class="flex items-center">
                     <div class="basis-1/2">
                         <img src="./assets/graphic-fe.webp" alt="Code Graphic Representing Front End" class="drop-shadow-lg">
@@ -136,26 +130,26 @@
                         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-indigo-600">FE</h2>
                         <p>Build it simple and stable.</p>
                         <ul>
-                            <li><strong>Skills: </strong></li>
-                            <li><p>Semantic markup</p></li>
-                            <li><p>Accessibility</p></li>
-                            <li><p>EFficient styling</p></li>
-                            <li><p>Clean javascript </p></li>
+                            <li><strong>Skills</strong></li>
+                            <li class="inline-block"><p>Semantic markup • </p></li>
+                            <li class="inline-block"><p>Accessibility • </p></li>
+                            <li class="inline-block"><p>EFficient styling • </p></li>
+                            <li class="inline-block"><p>Clean javascript</p></li>
                         </ul>
                         <ul>
-                           <li><strong>Tools: </strong></li>
-                           <li><p>HTML</p></li>
-                           <li><p>CSS</p></li>
-                           <li><p>PostCSS</p></li>
-                           <li><p>Tailwind</p></li>
-                           <li><p>JavaScript</p></li>
+                           <li><strong>Tools</strong></li>
+                           <li class="inline-block"><p>HTML • </p></li>
+                           <li class="inline-block"><p>CSS • </p></li>
+                           <li class="inline-block"><p>PostCSS • </p></li>
+                           <li class="inline-block"><p>Tailwind • </p></li>
+                           <li class="inline-block"><p>JavaScript • </p></li>
                        </ul>
                     </div>
                 </div>
             </div>
         </section>
         <section class="social">
-            <div class="container">
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24">
                 <ul class="social-links flex mx-auto max-w-sm justify-between">
                     <li class="social-link github ">
                         <a href="#">
@@ -176,7 +170,7 @@
             </div>
         </section>
         <section class="projects">
-            <div class="container">
+            <div class="container px-4 sm:px-5 md:px-6 lg:px-12 xl:px-24">
                 <div class="project-grid mx-auto grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     <figure class="project-grid-item bg-indigo-200 h-56">HDpiano</figure>
                     <figure class="project-grid-item bg-indigo-200 h-56">Harmonic Design System</figure>
