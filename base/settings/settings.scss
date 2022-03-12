@@ -1,4 +1,4 @@
-@use "./colors/colors.scss";
-@use "./layers/layers.scss";
-@use "./text/text.scss";
-@use "./typography/typography.scss";
+@import "colors/colors";
+@import "layers/layers";
+@import "text/text";
+@import "typography/typography";

@@ -1,6 +1,10 @@
-body {
-  font-family: "Poppins" "sans-serif";
+:root {
   font-size: 16px;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
