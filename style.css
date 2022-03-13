@@ -113,8 +113,33 @@
 }
 
 h1 {
-  font-size: 6rem;
+  font-weight: 700;
+  font-size: 2.5rem;
   line-height: 1;
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 6rem;
+    line-height: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
