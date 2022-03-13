@@ -1,5 +1,115 @@
 :root {
+  font-family: "Poppins", "sans-serif";
   font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+}
+
+.row {
+  align-items: center;
+  display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.col-1 {
+  flex-basis: 8.333333%;
+}
+
+.col-2 {
+  flex-basis: 16.66666%;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.333333%;
+}
+
+.col-5 {
+  flex-basis: 41.666666%;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-7 {
+  flex-basis: 58.333333%;
+}
+
+.col-8 {
+  flex-basis: 66.666666%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
+.col-10 {
+  flex-basis: 83.333333%;
+}
+
+.col-11 {
+  flex-basis: 91.666666%;
+}
+
+.hidden {
+  display: none;
 }
 
 h1 {
