@@ -4,8 +4,6 @@ body.homepage {
 
     h1 {
 
-        color: green;
-
         font-weight: 700;
     
         @include text-5xl;
@@ -70,6 +68,30 @@ body.homepage {
         }
     }
 
+    h3.subheading {
+
+        font-weight: 300;
+        opacity: 0.7;
+        
+        @include text-lg;
+    
+        @media ($screen-sm){
+            @include text-xl;
+        }
+    
+        @media ($screen-md){
+            @include text-2xl;
+        }
+    
+        @media ($screen-lg){
+            @include text-3xl;
+        }
+    
+        @media ($screen-xl){
+            @include text-4xl;
+        }
+    }
+
     p {
         @include text-base;
         margin-top: $space-md-1;
@@ -118,6 +140,80 @@ body.homepage {
                     font-size: 2.5rem;
                 }
             }
+        }
+    }
+
+    .skill-row {
+
+        align-items: center;
+        flex-direction: column;
+
+        &.reverse-stack {
+            flex-direction: column-reverse;
+
+            @media ($screen-md){
+                flex-direction: row;
+            }
+        }
+
+        @media ($screen-md){
+            flex-direction: row;
+        }
+
+        .col-6 {
+            flex-grow: 1;
+            flex-shrink: 1;
+            padding: 0 1rem;
+
+            img {
+                filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.15));
+                max-width: 100%;
+            }
+
+            .subheading {
+                margin-top: $space-sm-3;
+    
+                @media ($screen-sm) {
+                    margin-top: $space-md-1;
+                }
+            
+                @media ($screen-md) {
+                    margin-top: $space-md-2;
+                }
+            
+                @media ($screen-lg) {
+                    margin-top: $space-md-3;
+                }
+            
+                @media ($screen-xl) {
+                    margin-top: $space-lg-1;
+                }
+            }
+
+            li {
+                @include text-base;
+                display: inline-block;
+            }
+        }
+    }
+
+    .social-links{
+        justify-content: space-around;
+
+        a:hover {
+            @include shadow-sm;
+        }
+
+        .github svg {
+            fill: #333333;
+        }
+
+        .dribbble svg {
+            fill: #ea4c89;
+        }
+
+        .linkedin svg {
+            fill: #0077b5;
         }
     }
 }
