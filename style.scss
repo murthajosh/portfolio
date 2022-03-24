@@ -4,6 +4,8 @@ body.homepage {
 
     h1 {
 
+        color: green;
+
         font-weight: 700;
     
         @include text-5xl;
@@ -90,6 +92,32 @@ body.homepage {
 
         .hero-image {
             margin-top: $space-md-2;
+        }
+    }
+
+    .bio {
+        text-align: center;
+
+        .bio-radios {
+            justify-content: space-around;
+            margin: $space-md-3 auto;
+            max-width: 480px;
+
+            .radio-group {
+                :hover {
+                    color: red;
+                    cursor: pointer;
+                }
+
+                input {
+                    left: -200vw;
+                    position: absolute;
+                }
+
+                label {
+                    font-size: 2.5rem;
+                }
+            }
         }
     }
 }
