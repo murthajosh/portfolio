@@ -191,7 +191,6 @@ body.homepage {
             }
 
             li {
-                @include text-base;
                 display: inline-block;
             }
         }
@@ -214,6 +213,30 @@ body.homepage {
 
         .linkedin svg {
             fill: #0077b5;
+        }
+    }
+
+    .projects {
+
+        .project-grid {
+            display: grid;
+            gap: 1rem ;
+            margin: 0 auto;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+
+            @media ($screen-sm) {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            @media ($screen-lg) {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+
+            .project-grid-item {
+                background: lightblue;
+                border-radius: .24rem;
+                height: 14rem;
+            }
         }
     }
 }
