@@ -27,6 +27,7 @@ body.homepage {
     
     section {
         margin-top: $space-xl-2;
+        padding: 1.5rem 0;
     
         @media ($screen-sm) {
             margin-top: $space-xl-3;
@@ -70,8 +71,8 @@ body.homepage {
 
     h3.subheading {
 
-        font-weight: 300;
-        opacity: 0.7;
+        font-weight: 700;
+        opacity: 0.6;
         
         @include text-lg;
     
@@ -190,8 +191,18 @@ body.homepage {
                 }
             }
 
+            ul {
+                margin-top: $space-sm-3;
+            }
+
             li {
                 display: inline-block;
+
+                @include text-base;
+
+                @media ($screen-md) {
+                    @include text-lg;
+                }
             }
         }
     }
