@@ -26,24 +26,53 @@ body.homepage {
     }
     
     section {
-        margin-top: $space-xl-2;
-        padding: 1.5rem 0;
+        padding: $space-md-3 0;
     
         @media ($screen-sm) {
-            margin-top: $space-xl-3;
+            padding: $space-xl-1 0;
         }
     
         @media ($screen-md) {
-            margin-top: $space-xl-4;
+            padding: $space-xl-2 0;
         }
     
         @media ($screen-lg) {
-            margin-top: $space-xl-5;
+            padding: $space-xl-3 0;
         }
     
         @media ($screen-xl) {
-            margin-top: $space-xl-6;
+            padding: $space-xl-4 0;
         }
+
+        &.hero {
+            background-image: 
+            url('/Users/joshmurtha/Portfolio/assets/wave-purple.svg'),
+            url('/Users/joshmurtha/Portfolio/assets/wave-green.svg'),
+            url('/Users/joshmurtha/Portfolio/assets/wave-blue.svg');
+            background-repeat: repeat-x;
+            background-position: 
+                0 100%,
+                0 100%,
+                0 100%;
+            background-size: 
+                10000px,
+                8000px,
+                6000px;
+            animation: 50s para infinite linear;
+
+        @keyframes para {
+            100% {
+                background-position: 
+                    -1000px 100%,
+                    -200px 100%,
+                    300px 100%,
+                }
+            }
+        }
+        &.bio {
+            background-image: linear-gradient(to bottom, $primary-base, #fff 5%)
+        }
+        
     }
 
     h2.section-heading {
@@ -124,23 +153,32 @@ body.homepage {
         .bio-radios {
             justify-content: space-around;
             margin: $space-md-3 auto;
-            max-width: 480px;
+            max-width: 640px;
 
             .radio-group {
                 :hover {
-                    color: red;
+                    color: $primary-base;
                     cursor: pointer;
                 }
 
                 input {
                     left: -200vw;
                     position: absolute;
+
+                    &:checked ~ label {
+                        color: $primary-base;
+                    }
                 }
 
                 label {
                     font-size: 2.5rem;
                 }
             }
+        }
+
+        .bios {
+            max-width: 640px;
+            margin: 0 auto;
         }
     }
 
@@ -168,7 +206,13 @@ body.homepage {
 
             img {
                 filter: drop-shadow($shadow-sm);
-                max-width: 100%;
+                max-width: 343px;
+                margin: 2rem auto;
+
+                @media ($screen-md) {
+                    max-width: 100%;
+                    margin: 0;
+                }
             }
 
             .subheading {
@@ -191,17 +235,14 @@ body.homepage {
                 }
             }
 
-            ul {
+            ul.tools-list {
                 margin-top: $space-sm-3;
+                display: flex;
             }
 
             li {
-                display: inline-block;
-
-                @include text-base;
-
-                @media ($screen-md) {
-                    @include text-lg;
+                .tech-logo svg {
+                    height: 24px;
                 }
             }
         }
