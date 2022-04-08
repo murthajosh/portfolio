@@ -165,18 +165,6 @@ body.homepage section {
     padding: 3.5rem 0;
   }
 }
-body.homepage section.hero {
-  background-image: url("/Users/joshmurtha/Portfolio/assets/wave-purple.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-green.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-blue.svg");
-  background-repeat: repeat-x;
-  background-position: 0 100%, 0 100%, 0 100%;
-  background-size: 7000px, 5000px, 3000px;
-  animation: 50s para infinite linear;
-}
-@keyframes para {
-  100% {
-    background-position: -1000px 100%, -200px 100%, 300px 100%;
-  }
-}
 body.homepage h2.section-heading {
   font-weight: 700;
   font-size: 2.25rem;
@@ -249,6 +237,16 @@ body.homepage p {
 }
 body.homepage .hero {
   text-align: center;
+  background-image: url("/Users/joshmurtha/Portfolio/assets/wave-purple.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-green.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-blue.svg");
+  background-repeat: repeat-x;
+  background-position: 0 100%, 0 100%, 0 100%;
+  background-size: 7000px, 5000px, 3000px;
+  animation: 50s para infinite linear;
+}
+@keyframes para {
+  100% {
+    background-position: -1000px 100%, -200px 100%, 300px 100%;
+  }
 }
 body.homepage .hero .tagline {
   font-size: 1.25rem;
@@ -269,6 +267,10 @@ body.homepage .bio {
 }
 body.homepage .bio .section-heading {
   margin-bottom: 1.5rem;
+}
+body.homepage .bio .section-heading i {
+  color: #7B67F8;
+  font-style: italic;
 }
 body.homepage .bio .bio-radios {
   justify-content: space-around;
