@@ -147,22 +147,22 @@ body.homepage section {
 }
 @media (min-width: 640px) {
   body.homepage section {
-    padding: 3.5rem 0;
+    padding: 2rem 0;
   }
 }
 @media (min-width: 768px) {
   body.homepage section {
-    padding: 4rem 0;
+    padding: 2.5rem 0;
   }
 }
 @media (min-width: 1024px) {
   body.homepage section {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 }
 @media (min-width: 1280px) {
   body.homepage section {
-    padding: 6rem 0;
+    padding: 3.5rem 0;
   }
 }
 body.homepage section.hero {
@@ -343,21 +343,27 @@ body.homepage .skill-row .col-6 li {
 body.homepage .skill-row .col-6 li .tech-logo svg {
   height: 24px;
 }
-body.homepage .social-links {
+body.homepage .social {
+  text-align: center;
+}
+body.homepage .social .section-heading {
+  margin-bottom: 1.5rem;
+}
+body.homepage .social .social-links {
   justify-content: space-around;
   margin: 0 auto;
   max-width: 640px;
 }
-body.homepage .social-links a:hover {
+body.homepage .social .social-links a:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-body.homepage .social-links .github svg {
+body.homepage .social .social-links .github svg {
   fill: #333333;
 }
-body.homepage .social-links .dribbble svg {
+body.homepage .social .social-links .dribbble svg {
   fill: #ea4c89;
 }
-body.homepage .social-links .linkedin svg {
+body.homepage .social .social-links .linkedin svg {
   fill: #0077b5;
 }
 body.homepage .projects .project-grid {

@@ -29,19 +29,19 @@ body.homepage {
         padding: $space-md-3 0;
     
         @media ($screen-sm) {
-            padding: $space-xl-1 0;
+            padding: $space-lg-1 0;
         }
     
         @media ($screen-md) {
-            padding: $space-xl-2 0;
+            padding: $space-lg-2 0;
         }
     
         @media ($screen-lg) {
-            padding: $space-xl-3 0;
+            padding: $space-lg-3 0;
         }
     
         @media ($screen-xl) {
-            padding: $space-xl-4 0;
+            padding: $space-xl-1 0;
         }
 
         &.hero {
@@ -235,25 +235,33 @@ body.homepage {
         }
     }
 
-    .social-links{
-        justify-content: space-around;
-        margin: 0 auto;
-        max-width: 640px;
+    .social {
+        text-align: center;
 
-        a:hover {
-            filter: drop-shadow($shadow-sm);
+        .section-heading {
+            margin-bottom: $space-md-3;
         }
 
-        .github svg {
-            fill: #333333;
-        }
-
-        .dribbble svg {
-            fill: #ea4c89;
-        }
-
-        .linkedin svg {
-            fill: #0077b5;
+        .social-links {
+            justify-content: space-around;
+            margin: 0 auto;
+            max-width: 640px;
+    
+            a:hover {
+                filter: drop-shadow($shadow-sm);
+            }
+    
+            .github svg {
+                fill: #333333;
+            }
+    
+            .dribbble svg {
+                fill: #ea4c89;
+            }
+    
+            .linkedin svg {
+                fill: #0077b5;
+            }
         }
     }
 
