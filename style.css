@@ -169,16 +169,13 @@ body.homepage section.hero {
   background-image: url("/Users/joshmurtha/Portfolio/assets/wave-purple.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-green.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-blue.svg");
   background-repeat: repeat-x;
   background-position: 0 100%, 0 100%, 0 100%;
-  background-size: 10000px, 8000px, 6000px;
+  background-size: 7000px, 5000px, 3000px;
   animation: 50s para infinite linear;
 }
 @keyframes para {
   100% {
     background-position: -1000px 100%, -200px 100%, 300px 100%;
   }
-}
-body.homepage section.bio {
-  background-image: linear-gradient(to bottom, #7B67F8, #fff 5%);
 }
 body.homepage h2.section-heading {
   font-weight: 700;
@@ -267,7 +264,11 @@ body.homepage .hero .hero-image {
   margin-top: 1rem;
 }
 body.homepage .bio {
+  margin: 3rem auto;
   text-align: center;
+}
+body.homepage .bio .section-heading {
+  margin-bottom: 1.5rem;
 }
 body.homepage .bio .bio-radios {
   justify-content: space-around;
@@ -343,6 +344,30 @@ body.homepage .skill-row .col-6 li {
 body.homepage .skill-row .col-6 li .tech-logo svg {
   height: 24px;
 }
+body.homepage .projects .section-heading {
+  margin-bottom: 1.5rem;
+}
+body.homepage .projects .project-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+@media (min-width: 640px) {
+  body.homepage .projects .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  body.homepage .projects .project-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+body.homepage .projects .project-grid .project-grid-item {
+  background: lightblue;
+  border-radius: 0.24rem;
+  height: 14rem;
+}
 body.homepage .social {
   text-align: center;
 }
@@ -365,27 +390,6 @@ body.homepage .social .social-links .dribbble svg {
 }
 body.homepage .social .social-links .linkedin svg {
   fill: #0077b5;
-}
-body.homepage .projects .project-grid {
-  display: grid;
-  gap: 1rem;
-  margin: 0 auto;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-@media (min-width: 640px) {
-  body.homepage .projects .project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media (min-width: 1024px) {
-  body.homepage .projects .project-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-body.homepage .projects .project-grid .project-grid-item {
-  background: lightblue;
-  border-radius: 0.24rem;
-  height: 14rem;
 }
 
 /*# sourceMappingURL=style.css.map */

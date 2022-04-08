@@ -55,9 +55,9 @@ body.homepage {
                 0 100%,
                 0 100%;
             background-size: 
-                10000px,
-                8000px,
-                6000px;
+                7000px,
+                5000px,
+                3000px;
             animation: 50s para infinite linear;
 
         @keyframes para {
@@ -69,10 +69,6 @@ body.homepage {
                 }
             }
         }
-        &.bio {
-            background-image: linear-gradient(to bottom, $primary-base, #fff 5%)
-        }
-        
     }
 
     h2.section-heading {
@@ -148,7 +144,12 @@ body.homepage {
     }
 
     .bio {
+        margin: $space-lg-3 auto;
         text-align: center;
+
+        .section-heading {
+            margin-bottom: $space-md-3;
+        }
 
         .bio-radios {
             justify-content: space-around;
@@ -235,6 +236,34 @@ body.homepage {
         }
     }
 
+    .projects {
+
+        .section-heading {
+            margin-bottom: $space-md-3;
+        }
+
+        .project-grid {
+            display: grid;
+            gap: 1rem ;
+            margin: 0 auto;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+
+            @media ($screen-sm) {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            @media ($screen-lg) {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+
+            .project-grid-item {
+                background: lightblue;
+                border-radius: .24rem;
+                height: 14rem;
+            }
+        }
+    }
+
     .social {
         text-align: center;
 
@@ -261,30 +290,6 @@ body.homepage {
     
             .linkedin svg {
                 fill: #0077b5;
-            }
-        }
-    }
-
-    .projects {
-
-        .project-grid {
-            display: grid;
-            gap: 1rem ;
-            margin: 0 auto;
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-
-            @media ($screen-sm) {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-
-            @media ($screen-lg) {
-                grid-template-columns: repeat(3, minmax(0, 1fr));
-            }
-
-            .project-grid-item {
-                background: lightblue;
-                border-radius: .24rem;
-                height: 14rem;
             }
         }
     }
