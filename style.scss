@@ -183,7 +183,7 @@ body.homepage {
     }
 
     .skill-row {
-
+        text-align: center;
         align-items: center;
         flex-direction: column;
 
@@ -197,6 +197,7 @@ body.homepage {
 
         @media ($screen-md){
             flex-direction: row;
+            text-align: left;
         }
 
         .col-6 {
@@ -214,33 +215,19 @@ body.homepage {
                     margin: 0;
                 }
             }
-
-            .subheading {
-                margin-top: $space-sm-3;
-    
-                @media ($screen-sm) {
-                    margin-top: $space-md-1;
-                }
-            
-                @media ($screen-md) {
-                    margin-top: $space-md-2;
-                }
-            
-                @media ($screen-lg) {
-                    margin-top: $space-md-3;
-                }
-            
-                @media ($screen-xl) {
-                    margin-top: $space-lg-1;
-                }
-            }
-
             ul.tools-list {
-                margin-top: $space-sm-3;
+                margin-top: $space-md-1;
                 display: flex;
+                justify-content: space-around;
+
+                @media ($screen-md) {
+                    justify-content: flex-start;
+                }
             }
 
             li {
+
+                margin-right: 1rem;
                 .tech-logo svg {
                     height: 24px;
                 }
@@ -250,6 +237,8 @@ body.homepage {
 
     .social-links{
         justify-content: space-around;
+        margin: 0 auto;
+        max-width: 640px;
 
         a:hover {
             filter: drop-shadow($shadow-sm);

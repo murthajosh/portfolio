@@ -293,6 +293,7 @@ body.homepage .bio .bios {
   margin: 0 auto;
 }
 body.homepage .skill-row {
+  text-align: center;
   align-items: center;
   flex-direction: column;
 }
@@ -307,6 +308,7 @@ body.homepage .skill-row.reverse-stack {
 @media (min-width: 768px) {
   body.homepage .skill-row {
     flex-direction: row;
+    text-align: left;
   }
 }
 body.homepage .skill-row .col-6 {
@@ -325,38 +327,26 @@ body.homepage .skill-row .col-6 img {
     margin: 0;
   }
 }
-body.homepage .skill-row .col-6 .subheading {
-  margin-top: 0.25rem;
-}
-@media (min-width: 640px) {
-  body.homepage .skill-row .col-6 .subheading {
-    margin-top: 0.5rem;
-  }
+body.homepage .skill-row .col-6 ul.tools-list {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
 }
 @media (min-width: 768px) {
-  body.homepage .skill-row .col-6 .subheading {
-    margin-top: 1rem;
+  body.homepage .skill-row .col-6 ul.tools-list {
+    justify-content: flex-start;
   }
 }
-@media (min-width: 1024px) {
-  body.homepage .skill-row .col-6 .subheading {
-    margin-top: 1.5rem;
-  }
-}
-@media (min-width: 1280px) {
-  body.homepage .skill-row .col-6 .subheading {
-    margin-top: 2rem;
-  }
-}
-body.homepage .skill-row .col-6 ul.tools-list {
-  margin-top: 0.25rem;
-  display: flex;
+body.homepage .skill-row .col-6 li {
+  margin-right: 1rem;
 }
 body.homepage .skill-row .col-6 li .tech-logo svg {
   height: 24px;
 }
 body.homepage .social-links {
   justify-content: space-around;
+  margin: 0 auto;
+  max-width: 640px;
 }
 body.homepage .social-links a:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
