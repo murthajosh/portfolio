@@ -68,30 +68,6 @@ body.homepage {
         }
     }
 
-    h3.subheading {
-
-        font-weight: 700;
-        opacity: 0.6;
-        
-        @include text-lg;
-    
-        @media ($screen-sm){
-            @include text-xl;
-        }
-    
-        @media ($screen-md){
-            @include text-2xl;
-        }
-    
-        @media ($screen-lg){
-            @include text-3xl;
-        }
-    
-        @media ($screen-xl){
-            @include text-4xl;
-        }
-    }
-
     p {
         @include text-base;
         margin-top: $space-md-1;
@@ -263,6 +239,35 @@ body.homepage {
                 background: lightblue;
                 border-radius: .24rem;
                 height: 14rem;
+            }
+        }
+    }
+
+    .resume {
+        text-align: center;
+
+        .resume-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .resume-item {
+            border-radius: .5rem;
+            box-shadow: $shadow-sm;
+            max-width: 343px;
+            padding: 1rem;
+            text-align: left;
+
+            .chip-resume-type {
+                text-align: right;
+                border-radius: .24rem;padding: .25rem;
+                padding: .5rem;
+                width: max-content;
+
+                &.work {
+                    background-color: $primary-base;
+                }
             }
         }
     }
