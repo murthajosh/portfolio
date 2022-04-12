@@ -316,6 +316,9 @@ body.homepage .skill-row .col-6 li {
 body.homepage .skill-row .col-6 li .tech-logo svg {
   height: 24px;
 }
+body.homepage .projects {
+  background: #F8F8F8;
+}
 body.homepage .projects .section-heading {
   margin-bottom: 1.5rem;
 }
