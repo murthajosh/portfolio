@@ -246,6 +246,15 @@ body.homepage {
     .resume {
         text-align: center;
 
+        .dotted-line {
+            margin-top: $space-lg-2;
+            height: 1900px;
+            border-left: 8px dotted $tertiary-tint;
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+        }
+
         .resume-list {
             display: flex;
             flex-direction: column;
@@ -253,12 +262,14 @@ body.homepage {
         }
 
         .resume-item {
+            background-color: white;
             border-radius: .5rem;
             box-shadow: $shadow-sm;
             width: 320px;
             padding: 1rem 2rem 2rem 2rem;
             text-align: left;
-            margin-top: $space-lg-1;
+            margin-top: $space-lg-2;
+            z-index: 2;
 
             p.chip-resume-type {
                 @include text-sm;

@@ -343,18 +343,28 @@ body.homepage .projects .project-grid .project-grid-item {
 body.homepage .resume {
   text-align: center;
 }
+body.homepage .resume .dotted-line {
+  margin-top: 2.5rem;
+  height: 1900px;
+  border-left: 8px dotted #9DC9F1;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+}
 body.homepage .resume .resume-list {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 body.homepage .resume .resume-item {
+  background-color: white;
   border-radius: 0.5rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 320px;
   padding: 1rem 2rem 2rem 2rem;
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  z-index: 2;
 }
 body.homepage .resume .resume-item p.chip-resume-type {
   font-size: 0.875rem;
