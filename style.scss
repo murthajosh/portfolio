@@ -240,6 +240,12 @@ body.homepage {
                 background: lightblue;
                 border-radius: .24rem;
                 height: 14rem;
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    max-width: 200px;
+                }
             }
         }
     }

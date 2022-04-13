@@ -342,6 +342,11 @@ body.homepage .projects .project-grid .project-grid-item {
   background: lightblue;
   border-radius: 0.24rem;
   height: 14rem;
+  display: flex;
+  flex-direction: column;
+}
+body.homepage .projects .project-grid .project-grid-item img {
+  max-width: 200px;
 }
 body.homepage .resume {
   text-align: center;
