@@ -296,7 +296,7 @@ body.homepage .skill-row .col-6 img {
 }
 @media (min-width: 768px) {
   body.homepage .skill-row .col-6 img {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0;
   }
 }
