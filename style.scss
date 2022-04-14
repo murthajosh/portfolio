@@ -84,7 +84,7 @@ body.homepage {
             url('/Users/joshmurtha/Portfolio/assets/wave-purple.svg'),
             url('/Users/joshmurtha/Portfolio/assets/wave-green.svg'),
             url('/Users/joshmurtha/Portfolio/assets/wave-blue.svg');
-            background-repeat: repeat-x;
+            background-repeat: no-repeat;
             background-position: 
                 0 100%,
                 0 100%,
@@ -237,19 +237,35 @@ body.homepage {
             }
 
             .project-grid-item {
+                background-color: white;
                 background-repeat: no-repeat;
                 background-size: 66%;
                 background-position: center;
-                border-radius: .24rem;
+                border-radius: .25rem;
+                border: 8px solid white;
                 box-shadow: $shadow-sm;
                 cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 height: 14rem;
                 display: flex;
                 flex-direction: column;
                 padding: 1rem;
 
-                img {
-                    max-width: 200px;
+                &:hover {
+                    border: 8px solid $tertiary-base;
+                    background-size: 80%;
+                    box-shadow: $shadow-lg;
+                }
+
+                p {
+                    font-weight: 700;
+                    margin: 0;
+
+                    &.tech {
+                        align-self: flex-end;
+                    }
                 }
             }
         }

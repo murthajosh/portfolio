@@ -208,7 +208,7 @@ body.homepage p {
 body.homepage .hero {
   text-align: center;
   background-image: url("/Users/joshmurtha/Portfolio/assets/wave-purple.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-green.svg"), url("/Users/joshmurtha/Portfolio/assets/wave-blue.svg");
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-position: 0 100%, 0 100%, 0 100%;
   background-size: 7000px, 5000px, 3000px;
   animation: 50s para infinite linear;
@@ -290,7 +290,7 @@ body.homepage .skill-row .col-6 {
   padding: 0 1rem;
 }
 body.homepage .skill-row .col-6 img {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   max-width: 343px;
   margin: 2rem auto;
 }
@@ -339,19 +339,33 @@ body.homepage .projects .project-grid {
   }
 }
 body.homepage .projects .project-grid .project-grid-item {
+  background-color: white;
   background-repeat: no-repeat;
   background-size: 66%;
   background-position: center;
-  border-radius: 0.24rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  border: 8px solid white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 14rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
-body.homepage .projects .project-grid .project-grid-item img {
-  max-width: 200px;
+body.homepage .projects .project-grid .project-grid-item:hover {
+  border: 8px solid #54ACFC;
+  background-size: 80%;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+}
+body.homepage .projects .project-grid .project-grid-item p {
+  font-weight: 700;
+  margin: 0;
+}
+body.homepage .projects .project-grid .project-grid-item p.tech {
+  align-self: flex-end;
 }
 body.homepage .resume {
   text-align: center;
@@ -372,7 +386,7 @@ body.homepage .resume .resume-list {
 body.homepage .resume .resume-item {
   background-color: white;
   border-radius: 0.5rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   width: 320px;
   padding: 1rem 2rem 2rem 2rem;
   text-align: left;
@@ -428,7 +442,7 @@ body.homepage .social .social-links {
   max-width: 640px;
 }
 body.homepage .social .social-links a:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 }
 body.homepage .social .social-links .github svg {
   fill: #333333;
