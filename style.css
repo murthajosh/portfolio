@@ -356,11 +356,11 @@ body.homepage .projects .project-grid .project-grid-item {
   padding: 1rem;
 }
 body.homepage .projects .project-grid .project-grid-item:hover {
+  border: 8px solid #54ACFC;
   animation: 0.5s logoGrow forwards;
 }
 @keyframes logoGrow {
   100% {
-    border: 8px solid #54ACFC;
     background-size: 80%;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
   }

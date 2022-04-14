@@ -255,10 +255,10 @@ body.homepage {
                 
 
                 &:hover {
+                    border: 8px solid $tertiary-base;
                     animation: .5s logoGrow forwards;
                     @keyframes logoGrow {
                         100% {
-                            border: 8px solid $tertiary-base;
                             background-size: 80%;
                             box-shadow: $shadow-lg;
                         }
