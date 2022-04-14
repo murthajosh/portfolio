@@ -339,11 +339,16 @@ body.homepage .projects .project-grid {
   }
 }
 body.homepage .projects .project-grid .project-grid-item {
-  background: lightblue;
+  background-repeat: no-repeat;
+  background-size: 66%;
+  background-position: center;
   border-radius: 0.24rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
   height: 14rem;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 body.homepage .projects .project-grid .project-grid-item img {
   max-width: 200px;

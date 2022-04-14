@@ -237,11 +237,16 @@ body.homepage {
             }
 
             .project-grid-item {
-                background: lightblue;
+                background-repeat: no-repeat;
+                background-size: 66%;
+                background-position: center;
                 border-radius: .24rem;
+                box-shadow: $shadow-sm;
+                cursor: pointer;
                 height: 14rem;
                 display: flex;
                 flex-direction: column;
+                padding: 1rem;
 
                 img {
                     max-width: 200px;
