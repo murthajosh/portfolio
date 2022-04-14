@@ -343,7 +343,7 @@ body.homepage .projects .project-grid .project-grid-item {
   background-repeat: no-repeat;
   background-size: 66%;
   background-position: center;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   border: 8px solid white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -356,9 +356,14 @@ body.homepage .projects .project-grid .project-grid-item {
   padding: 1rem;
 }
 body.homepage .projects .project-grid .project-grid-item:hover {
-  border: 8px solid #54ACFC;
-  background-size: 80%;
-  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+  animation: 0.5s logoGrow forwards;
+}
+@keyframes logoGrow {
+  100% {
+    border: 8px solid #54ACFC;
+    background-size: 80%;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+  }
 }
 body.homepage .projects .project-grid .project-grid-item p {
   font-weight: 700;

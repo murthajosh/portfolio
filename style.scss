@@ -241,7 +241,7 @@ body.homepage {
                 background-repeat: no-repeat;
                 background-size: 66%;
                 background-position: center;
-                border-radius: .25rem;
+                border-radius: .5rem;
                 border: 8px solid white;
                 box-shadow: $shadow-sm;
                 cursor: pointer;
@@ -252,11 +252,17 @@ body.homepage {
                 display: flex;
                 flex-direction: column;
                 padding: 1rem;
+                
 
                 &:hover {
-                    border: 8px solid $tertiary-base;
-                    background-size: 80%;
-                    box-shadow: $shadow-lg;
+                    animation: .5s logoGrow forwards;
+                    @keyframes logoGrow {
+                        100% {
+                            border: 8px solid $tertiary-base;
+                            background-size: 80%;
+                            box-shadow: $shadow-lg;
+                        }
+                    }
                 }
 
                 p {
