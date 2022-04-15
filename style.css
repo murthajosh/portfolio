@@ -345,7 +345,6 @@ body.homepage .projects .project-grid .project-grid-item {
   background-size: 66%;
   background-position: center;
   border-radius: 0.5rem;
-  border: 8px solid white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   display: flex;
@@ -357,7 +356,6 @@ body.homepage .projects .project-grid .project-grid-item {
   padding: 1rem;
 }
 body.homepage .projects .project-grid .project-grid-item:hover {
-  border: 8px solid #7B67F8;
   animation: 0.5s logoGrow forwards;
 }
 @keyframes logoGrow {
