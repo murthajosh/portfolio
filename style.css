@@ -145,6 +145,9 @@ body.homepage h1 {
 body.homepage section {
   padding: 1.5rem 0;
 }
+body.homepage section.ux, body.homepage section.fe {
+  background: #F8F8F8;
+}
 @media (min-width: 640px) {
   body.homepage section {
     padding: 2rem 0;
@@ -317,12 +320,8 @@ body.homepage .skill-row .col-6 li {
 body.homepage .skill-row .col-6 li .tech-logo svg {
   height: 24px;
 }
-body.homepage .projects {
-  background: #A294FA;
-}
 body.homepage .projects .section-heading {
   margin-bottom: 1.5rem;
-  color: white;
 }
 body.homepage .projects .project-grid {
   display: grid;
@@ -448,7 +447,12 @@ body.homepage .social .social-links {
   margin: 0 auto;
   max-width: 640px;
 }
+body.homepage .social .social-links a {
+  text-decoration: none;
+  color: #7B67F8;
+}
 body.homepage .social .social-links a:hover {
+  color: #5A41F6;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
 }
 body.homepage .social .social-links .github svg {

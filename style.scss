@@ -27,6 +27,11 @@ body.homepage {
     
     section {
         padding: $space-md-3 0;
+
+        &.ux,
+        &.fe {
+            background: $light-tint;
+        }
     
         @media ($screen-sm) {
             padding: $space-lg-1 0;
@@ -228,11 +233,9 @@ body.homepage {
     }
 
     .projects {
-        background: $primary-tint;
 
         .section-heading {
             margin-bottom: $space-md-3;
-            color: white;
         }
 
         .project-grid {
@@ -374,8 +377,14 @@ body.homepage {
             margin: 0 auto;
             max-width: 640px;
     
-            a:hover {
-                filter: drop-shadow($shadow-sm);
+            a {
+                text-decoration: none;
+                color: $primary-base;
+
+                &:hover {
+                    color: $primary-shade;
+                    filter: drop-shadow($shadow-sm);
+                }
             }
     
             .github svg {
