@@ -129,6 +129,9 @@ body.homepage header {
   align-items: center;
   padding: 2rem;
 }
+body.homepage header .top-nav {
+  font-weight: 700;
+}
 body.homepage header .top-nav ul {
   display: flex;
   flex-direction: row;
