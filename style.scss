@@ -193,7 +193,7 @@ body.homepage {
 
             img {
                 filter: drop-shadow($shadow-sm);
-                max-width: 343px;
+                max-width: 300px;
                 margin: 2rem auto;
 
                 @media ($screen-md) {
