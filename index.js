@@ -14,26 +14,14 @@ if (document.querySelector('input[name="bio-length"]')) {
     document.querySelectorAll('input[name="bio-length"]').forEach((elem) => {
       elem.addEventListener("change", function(event) {
         if (bioButtonShort.checked) {
-            shortBioHeading.classList.remove('hidden')
-            mediumBioHeading.classList.add('hidden')
-            longBioHeading.classList.add('hidden')
-
             shortBio.classList.remove('hidden')
             mediumBio.classList.add('hidden')
             longBio.classList.add('hidden')
         } else if (bioButtonMedium.checked) {
-            shortBioHeading.classList.add('hidden')
-            mediumBioHeading.classList.remove('hidden')
-            longBioHeading.classList.add('hidden')
-
             shortBio.classList.add('hidden')
             mediumBio.classList.remove('hidden')
             longBio.classList.add('hidden')
         } else if (bioButtonLong.checked) {
-            shortBioHeading.classList.add('hidden')
-            mediumBioHeading.classList.add('hidden')
-            longBioHeading.classList.remove('hidden')
-
             shortBio.classList.add('hidden')
             mediumBio.classList.add('hidden')
             longBio.classList.remove('hidden')

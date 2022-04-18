@@ -25,7 +25,7 @@ body.homepage {
         }
     }
     
-    section {
+    section:not(.hero) {
         padding: $space-md-3 0;
 
         &.ux,
@@ -139,14 +139,6 @@ body.homepage {
     .bio {
         text-align: center;
 
-        .section-heading {
-            margin-bottom: $space-md-3;
-
-            i {
-                color: $primary-base;
-            }
-        }
-
         .bio-radios {
             justify-content: space-around;
             margin: $space-md-3 auto;
@@ -201,6 +193,10 @@ body.homepage {
             flex-grow: 1;
             flex-shrink: 1;
             padding: 0 1rem;
+
+            p {
+                margin:  1rem 0;
+            }
 
             img {
                 filter: drop-shadow($shadow-sm);
