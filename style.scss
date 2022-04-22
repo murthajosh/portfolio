@@ -3,6 +3,8 @@
 body.homepage {
 
     header {
+        background: $primary-base;
+        color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -21,6 +23,10 @@ body.homepage {
 
                     a{
                         text-decoration: none;
+
+                        &:visited {
+                            color:white;
+                        }
                     }
                 }
             }
@@ -246,8 +252,8 @@ body.homepage {
                 background-repeat: no-repeat;
                 background-size: 66%;
                 background-position: center;
+                border: 8px solid $primary-tint;
                 border-radius: .5rem;
-                box-shadow: $shadow-sm;
                 cursor: pointer;
                 display: flex;
                 flex-direction: column;
@@ -259,11 +265,12 @@ body.homepage {
                 
 
                 &:hover {
-                    animation: .5s logoGrow forwards;
+                    animation: .3s logoGrow forwards;
                     @keyframes logoGrow {
                         100% {
                             background-size: 70%;
                             box-shadow: $shadow-lg;
+                            border:  8px solid $primary-shade;
                         }
                     }
                 }

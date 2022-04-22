@@ -124,6 +124,8 @@
 }
 
 body.homepage header {
+  background: #7B67F8;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,6 +146,9 @@ body.homepage header .top-nav ul li {
 }
 body.homepage header .top-nav ul li a {
   text-decoration: none;
+}
+body.homepage header .top-nav ul li a:visited {
+  color: white;
 }
 body.homepage h1 {
   font-weight: 700;
@@ -363,8 +368,8 @@ body.homepage .projects .project-grid .project-grid-item {
   background-repeat: no-repeat;
   background-size: 66%;
   background-position: center;
+  border: 8px solid #A294FA;
   border-radius: 0.5rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -375,12 +380,13 @@ body.homepage .projects .project-grid .project-grid-item {
   padding: 1rem;
 }
 body.homepage .projects .project-grid .project-grid-item:hover {
-  animation: 0.5s logoGrow forwards;
+  animation: 0.3s logoGrow forwards;
 }
 @keyframes logoGrow {
   100% {
     background-size: 70%;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+    border: 8px solid #5A41F6;
   }
 }
 body.homepage .projects .project-grid .project-grid-item p {
