@@ -9,6 +9,12 @@ body.homepage {
         justify-content: space-between;
         align-items: center;
         padding: 2rem;
+        margin-bottom: 3rem;
+
+        .logo-text {
+            font-family: 'Rubik Puddles', cursive;
+            font-size: 56px;
+        }
 
         .top-nav {
             font-weight: 700;
