@@ -34,6 +34,13 @@ body.homepage {
                             color:white;
                         }
                     }
+
+                    button {
+                        color: $primary-shade;
+                        background: white;
+                        font-weight: 700;
+                        padding: .5rem 1rem;
+                    }
                 }
             }
         }
@@ -258,8 +265,9 @@ body.homepage {
                 background-repeat: no-repeat;
                 background-size: 66%;
                 background-position: center;
-                border: 8px solid $primary-tint;
+                border: 8px solid white;
                 border-radius: .5rem;
+                box-shadow: $shadow-sm;
                 cursor: pointer;
                 display: flex;
                 flex-direction: column;

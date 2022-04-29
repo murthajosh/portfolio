@@ -111,12 +111,15 @@
 }
 
 .button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.button:hover {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .hidden {
@@ -154,6 +157,12 @@ body.homepage header .top-nav ul li a {
 }
 body.homepage header .top-nav ul li a:visited {
   color: white;
+}
+body.homepage header .top-nav ul li button {
+  color: #5A41F6;
+  background: white;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
 }
 body.homepage h1 {
   font-weight: 700;
@@ -373,8 +382,9 @@ body.homepage .projects .project-grid .project-grid-item {
   background-repeat: no-repeat;
   background-size: 66%;
   background-position: center;
-  border: 8px solid #A294FA;
+  border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   display: flex;
   flex-direction: column;
