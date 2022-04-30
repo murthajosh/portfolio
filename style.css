@@ -138,6 +138,7 @@ body.homepage header {
 body.homepage header .logo-text {
   font-family: "Rubik Puddles", cursive;
   font-size: 56px;
+  font-weight: 900;
 }
 body.homepage header .top-nav {
   font-weight: 700;
@@ -265,14 +266,20 @@ body.homepage .hero {
 body.homepage .hero .hero-image {
   margin-top: 1rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-  animation: 2s bobble infinite linear;
+  animation: 3s bobble infinite linear;
 }
 @keyframes bobble {
-  33% {
-    transform: rotate(-5deg);
+  0% {
+    transform: rotate(0deg);
   }
-  85% {
-    transform: rotate(5deg);
+  25% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-7deg);
   }
   100% {
     transform: rotate(0deg);
@@ -410,6 +417,52 @@ body.homepage .projects .project-grid .project-grid-item p {
 }
 body.homepage .projects .project-grid .project-grid-item p.tech {
   align-self: flex-end;
+}
+body.homepage .projects .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3;
+}
+body.homepage .projects .overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+body.homepage .projects .overlay .popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  z-index: 4;
+}
+body.homepage .projects .overlay .popup h2 {
+  color: red;
+}
+body.homepage .projects .overlay .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+body.homepage .projects .overlay .popup .close:hover {
+  color: #14FF47;
+}
+body.homepage .projects .overlay .popup .popup-content {
+  max-height: 30%;
+  overflow: auto;
 }
 body.homepage .resume {
   text-align: center;

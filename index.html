@@ -35,7 +35,7 @@
             <div class="container">
                 <!-- <h1 >Josh Murtha</h1> -->
                 <h1>Hi, I'm Josh...</h1>
-                <img src="./assets/avatar-josh.svg" alt="a picture of josh" class="hero-image">
+                <img src="./assets/avatar-josh-4-30.svg" alt="a picture of josh" class="hero-image">
         </section>
         <section class="bio" id="bio">
             <div class="container">
@@ -59,12 +59,12 @@
                     <div class="bios">
                         <p class="" id="short-bio">I play guitar and make things on the computer.</p>
                         <p class="hidden " id="medium-bio">I studied Jazz Guitar in college, and before I got into design and development I was a full time musician and music teacher in Chicago. I still get to put my musical background to use working at HDpiano, where I design and build tools for music education.</p>
-                        <p class="hidden " id="long-bio">I decided to make a career change in early 2019 and spent the next few months studying design and learning the basics of HTML and CSS on my own before enrolling in the Designation UI Design bootcamp here in Chicago. I graduated from that program in March 2020, just as the Covid 19 pandemic was heating up, and was fortunate to be hired as a designer at HDpiano right away.<br><br> While working as a UX/UI designer, I continued my edication part time, taking coding classes in the evening, and by June of 2021 I was invited to take on more responsibility within the company and join the Dev team as a Jr. Front-End Developer. I still lead UX and UI design at HDpiano, but now handoff is much simpler. ;)<br><br>Over the past few years I've rediscovered a love of learning that I hadn't felt since I first picked up a guitar in my teens. I approach new skills and concepts with a "beginner's mind" and I've gotten comfortable working ouside my comfort zone and asking lots of questions. <br><br>I'm always on the lookout for opportunites to continue to learn and sharpen my skills by working on new projects with new people, so don't hesitate to reach out!</p>
+                        <p style="text-align:left"class="hidden " id="long-bio">I decided to make a career change in early 2019 and spent the next few months studying design and learning the basics of HTML and CSS on my own before enrolling in the Designation UI Design bootcamp here in Chicago. I graduated from that program in March 2020, just as the Covid 19 pandemic was heating up, and was fortunate to be hired as a designer at HDpiano right away.<br><br> While working as a UX/UI designer, I continued my edication part time, taking coding classes in the evening, and by June of 2021 I was invited to take on more responsibility within the company and join the Dev team as a Jr. Front-End Developer. I still lead UX and UI design at HDpiano, but now handoff is much simpler. ;)<br><br>Over the past few years I've rediscovered a love of learning that I hadn't felt since I first picked up a guitar in my teens. I approach new skills and concepts with a "beginner's mind" and I've gotten comfortable working ouside my comfort zone and asking lots of questions. <br><br>I'm always on the lookout for opportunites to continue to learn and sharpen my skills by working on new projects with new people, so don't hesitate to reach out!</p>
                     </div> 
                 </div>
             </div>
         </section>
-        <section class="ux">
+        <section class="ux skills">
             <div class="container">
                 <div class="row skill-row reverse-stack">
                     <div class="col-6">
@@ -130,7 +130,7 @@
                 </div>
             </div>
         </section>
-        <section class="ui">
+        <section class="ui skills">
             <div class="container">
                 <div class="row skill-row">
                     <div class="col-6">
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section class="fe">
+        <section class="fe skills">
             <div class="container">
                 <div class="row skill-row reverse-stack">
                     <div class="col-6">
@@ -185,10 +185,10 @@
             <div class="container">
                 <h2 class="section-heading">Projects</h2>
                 <div class="project-grid">
-                    <figure class="project-grid-item" style="background-image: url(./assets/project-images/project-image-hdpiano.svg">
+                    <a href="#popup-hdpiano"class="project-grid-item" style="background-image: url(./assets/project-images/project-image-hdpiano.svg">
                         <p class="description">Piano tutorial site</p>
-                        <p class="tech">Design • CSS • ES6</p>
-                    </figure>
+                        <p class="tech">Design • PHP • CSS • ES6</p>
+                    </a>
                     <figure class="project-grid-item" style="background-image: url(./assets/project-images/project-image-chordchemist.svg">
                         <p class="description">Guitar chord generator</p>
                         <p class="tech">React • CSS</p>
@@ -209,6 +209,15 @@
                         <p class="description">This portfolio site</p>
                         <p class="tech">HTML • SASS • ES6</p>
                     </figure>
+                </div>
+            </div>
+            <div id="popup-hdpiano" class="overlay">
+                <div class="popup">
+                    <h3>HDpiano.com</h3>
+                    <a href="#projects" class="close material-icons-round">close</a>
+                    <div class="popup-content">
+                        HDpiano is my full time job. My responsibilities there include creation and maintenance of the 'Harmonic' Design System, UX/UI and graphic design, and building and maintaining the front end  of this Wordpress site.
+                    </div>
                 </div>
             </div>
         </section> 
@@ -286,7 +295,7 @@
         </section> 
         <section class="social">
             <div class="container">
-                <h2 class="section-heading">Social Media Links</h2>
+                <h2 class="section-heading">Connect</h2>
                 <ul class="social-links row">
                     <li class="social-link github ">
                         <a href="#">
@@ -294,12 +303,12 @@
                             <p>GitHub</p>
                         </a>
                     </li>
-                    <li class="social-link dribbble ">
+                    <!-- <li class="social-link dribbble ">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"><path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.24-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"/></svg>
                             <p>Dribbble</p>
                         </a>
-                    </li>
+                    </li> -->
                     <li class="social-link linkedin ">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
