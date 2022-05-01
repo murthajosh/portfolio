@@ -7,8 +7,8 @@
 
     .dotted-line {
         margin-top: $space-lg-2;
-        height: 1900px;
-        border-left: 8px dotted $tertiary-tint;
+        height: 1800px;
+        border-left: 8px dotted $light-shade;
         position: absolute;
         z-index: 1;
         left: 50%;
@@ -25,7 +25,7 @@
         border-radius: .5rem;
         box-shadow: $shadow-sm;
         width: 320px;
-        padding: 1rem 2rem 2rem 2rem;
+        padding: 1rem;
         text-align: left;
         margin-top: $space-lg-2;
         z-index: 2;
