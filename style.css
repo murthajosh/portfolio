@@ -159,6 +159,9 @@ body.homepage header .top-nav ul li a {
 body.homepage header .top-nav ul li a:visited {
   color: white;
 }
+body.homepage header .top-nav ul li a:hover {
+  color: #14FF47;
+}
 body.homepage header .top-nav ul li button {
   color: #5A41F6;
   background: white;
@@ -392,14 +395,16 @@ body.homepage .projects .project-grid .project-grid-item {
   border: 8px solid white;
   border-radius: 0.5rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  color: #1E232C;
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 14rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  text-decoration: none;
 }
 body.homepage .projects .project-grid .project-grid-item:hover {
   animation: 0.3s logoGrow forwards;
@@ -408,7 +413,7 @@ body.homepage .projects .project-grid .project-grid-item:hover {
   100% {
     background-size: 70%;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
-    border: 8px solid #5A41F6;
+    border: 8px solid #14FF47;
   }
 }
 body.homepage .projects .project-grid .project-grid-item p {
@@ -444,8 +449,15 @@ body.homepage .projects .overlay .popup {
   transition: all 5s ease-in-out;
   z-index: 4;
 }
-body.homepage .projects .overlay .popup h2 {
-  color: red;
+body.homepage .projects .overlay .popup h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+body.homepage .projects .overlay .popup .popup-content {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 body.homepage .projects .overlay .popup .close {
   position: absolute;

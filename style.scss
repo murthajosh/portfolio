@@ -34,6 +34,10 @@ body.homepage {
                         &:visited {
                             color:white;
                         }
+
+                        &:hover {
+                            color: $secondary-base;
+                        }
                     }
 
                     button {
@@ -275,15 +279,16 @@ body.homepage {
                 border: 8px solid white;
                 border-radius: .5rem;
                 box-shadow: $shadow-sm;
+                color: $dark-base;
                 cursor: pointer;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: flex-end;
                 height: 14rem;
                 display: flex;
                 flex-direction: column;
                 padding: 1rem;
-                
+                text-decoration: none;
 
                 &:hover {
                     animation: .3s logoGrow forwards;
@@ -291,7 +296,7 @@ body.homepage {
                         100% {
                             background-size: 70%;
                             box-shadow: $shadow-lg;
-                            border:  8px solid $primary-shade;
+                            border:  8px solid $secondary-base;
                         }
                     }
                 }
@@ -334,8 +339,14 @@ body.homepage {
                 transition: all 5s ease-in-out;
                 z-index: 4;
 
-                h2 {
-                    color:red;
+                h3 {
+                    @include text-xl;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                }
+
+                .popup-content {
+                    @include text-base;
                 }
 
                 .close {
