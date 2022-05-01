@@ -1,1 +1,0 @@
-import bioSwitcher from "./pages/home-page/bio/bio";

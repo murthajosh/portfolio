@@ -363,31 +363,88 @@ header .logo-text:visited {
 header .logo-text:hover {
   color: #14FF47;
 }
-header .top-nav {
+header .nav-top {
+  display: none;
   font-weight: 700;
 }
-header .top-nav ul {
+header .nav-top ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-header .top-nav ul li {
+header .nav-top ul li {
   font-size: 1.125rem;
   line-height: 1.75rem;
   margin-left: 2.5rem;
 }
-header .top-nav ul li a {
+header .nav-top ul li a {
   text-decoration: none;
   transition: all 300ms;
 }
-header .top-nav ul li a:visited {
+header .nav-top ul li a:visited {
   color: white;
 }
-header .top-nav ul li a:hover {
+header .nav-top ul li a:hover {
   color: #14FF47;
 }
-header .top-nav ul li button {
+header .nav-top ul li button {
   border: none;
+}
+@media (min-width: 768px) {
+  header .nav-top {
+    display: block;
+  }
+}
+header .nav-drawer {
+  background: rgba(165, 2, 171, 0.9);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  padding-top: 6rem;
+  text-align: center;
+}
+header .nav-drawer .menu-close {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+header .nav-drawer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .nav-drawer ul li {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+}
+header .nav-drawer ul li a {
+  text-decoration: none;
+  transition: all 300ms;
+}
+header .nav-drawer ul li a:visited {
+  color: white;
+}
+header .nav-drawer ul li a:hover {
+  color: #14FF47;
+}
+header .nav-drawer ul li button {
+  border: none;
+}
+header #icon-hamburger {
+  font-size: 40px;
+  display: block;
+}
+@media (min-width: 768px) {
+  header #icon-hamburger {
+    display: none;
+  }
 }
 
 .hidden {

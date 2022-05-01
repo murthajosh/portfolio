@@ -1,4 +1,3 @@
-export default function bioSwitcher() {
     const bioButtonShort = document.getElementById('bio-short')
     const bioButtonMedium = document.getElementById('bio-medium')
     const bioButtonLong = document.getElementById('bio-long')
@@ -32,4 +31,3 @@ export default function bioSwitcher() {
           });
         });
     };
-}
