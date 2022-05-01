@@ -363,6 +363,19 @@ header .logo-text:visited {
 header .logo-text:hover {
   color: #14FF47;
 }
+header .icon-hamburger {
+  cursor: pointer;
+  font-size: 40px;
+  display: block;
+}
+@media (min-width: 768px) {
+  header .icon-hamburger {
+    display: none;
+  }
+}
+header .icon-hamburger:hover {
+  color: #14FF47;
+}
 header .nav-top {
   display: none;
   font-weight: 700;
@@ -395,8 +408,8 @@ header .nav-top ul li button {
     display: block;
   }
 }
-header .nav-drawer {
-  background: rgba(165, 2, 171, 0.9);
+header .nav-curtain {
+  background: #7B67F8;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -406,49 +419,48 @@ header .nav-drawer {
   padding-top: 6rem;
   text-align: center;
 }
-header .nav-drawer .menu-close {
+header .nav-curtain .menu-close {
   font-size: 40px;
   cursor: pointer;
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
-header .nav-drawer ul {
+header .nav-curtain .menu-close:hover {
+  color: #14FF47;
+}
+header .nav-curtain ul {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-header .nav-drawer ul li {
+header .nav-curtain ul li {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
   margin-top: 2.5rem;
 }
-header .nav-drawer ul li a {
+header .nav-curtain ul li a {
   text-decoration: none;
   transition: all 300ms;
 }
-header .nav-drawer ul li a:visited {
+header .nav-curtain ul li a:visited {
   color: white;
 }
-header .nav-drawer ul li a:hover {
+header .nav-curtain ul li a:hover {
   color: #14FF47;
 }
-header .nav-drawer ul li button {
+header .nav-curtain ul li button {
   border: none;
-}
-header #icon-hamburger {
-  font-size: 40px;
-  display: block;
-}
-@media (min-width: 768px) {
-  header #icon-hamburger {
-    display: none;
-  }
 }
 
 .hidden {
   display: none;
+}
+
+.disabled {
+  pointer-events: none;
+  touch-action: none;
 }
 
 .hero {

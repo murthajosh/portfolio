@@ -23,6 +23,21 @@ header {
         }
     }
 
+    .icon-hamburger {
+        cursor:pointer;
+        font-size: 40px;
+        display: block;
+
+        @media ($screen-md) {
+            display:none;
+        }
+
+        &:hover {
+            color: $secondary-base;
+        }
+
+    }
+
     .nav-top {
         display:none;
         font-weight: 700;
@@ -60,8 +75,8 @@ header {
         }
     }
 
-    .nav-drawer {
-        background: rgba(165, 2, 171, 0.9);
+    .nav-curtain {
+        background: $primary-base;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -77,6 +92,10 @@ header {
             position: absolute;
             top: 2rem;
             right: 2rem;
+
+            &:hover {
+                color: $secondary-base;
+            }
         }
 
         ul {
@@ -107,16 +126,5 @@ header {
                 }
             }
         }
-    }
-
-
-    #icon-hamburger {
-        font-size: 40px;
-        display: block;
-
-        @media ($screen-md) {
-            display:none;
-        }
-
     }
 }
