@@ -115,11 +115,29 @@
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
+  transition: all 300ms;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 .button:hover {
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+  transform: scale(1.025);
+}
+.button-primary {
+  background: #7B67F8;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+}
+.button-primary:hover {
+  background: #00E532;
+}
+.button-primary-outlined {
+  background: white;
+  border: 4px solid #7B67F8;
+  color: #7B67F8;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
 }
 
 .hidden {
@@ -139,6 +157,14 @@ body.homepage header .logo-text {
   font-family: "Rubik Puddles", cursive;
   font-size: 56px;
   font-weight: 900;
+  text-decoration: none;
+  transition: all 300ms;
+}
+body.homepage header .logo-text:visited {
+  color: white;
+}
+body.homepage header .logo-text:hover {
+  color: #14FF47;
 }
 body.homepage header .top-nav {
   font-weight: 700;
@@ -155,6 +181,7 @@ body.homepage header .top-nav ul li {
 }
 body.homepage header .top-nav ul li a {
   text-decoration: none;
+  transition: all 300ms;
 }
 body.homepage header .top-nav ul li a:visited {
   color: white;
@@ -163,10 +190,7 @@ body.homepage header .top-nav ul li a:hover {
   color: #14FF47;
 }
 body.homepage header .top-nav ul li button {
-  color: #5A41F6;
-  background: white;
-  font-weight: 700;
-  padding: 0.5rem 1rem;
+  border: none;
 }
 body.homepage h1 {
   font-weight: 700;
@@ -297,7 +321,7 @@ body.homepage .bio .bio-radios {
   max-width: 640px;
 }
 body.homepage .bio .bio-radios .radio-group :hover {
-  color: #7B67F8;
+  color: #14FF47;
   cursor: pointer;
 }
 body.homepage .bio .bio-radios .radio-group input {
@@ -407,7 +431,7 @@ body.homepage .projects .project-grid .project-grid-item {
   text-decoration: none;
 }
 body.homepage .projects .project-grid .project-grid-item:hover {
-  animation: 0.3s logoGrow forwards;
+  animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
   100% {
@@ -448,6 +472,8 @@ body.homepage .projects .overlay .popup {
   position: relative;
   transition: all 5s ease-in-out;
   z-index: 4;
+  width: 70%;
+  max-width: 480px;
 }
 body.homepage .projects .overlay .popup h3 {
   font-size: 1.25rem;
@@ -467,7 +493,7 @@ body.homepage .projects .overlay .popup .close {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #1E232C;
 }
 body.homepage .projects .overlay .popup .close:hover {
   color: #14FF47;
@@ -475,6 +501,17 @@ body.homepage .projects .overlay .popup .close:hover {
 body.homepage .projects .overlay .popup .popup-content {
   max-height: 30%;
   overflow: auto;
+}
+body.homepage .projects .overlay .popup .popup-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+body.homepage .projects .overlay .popup .popup-actions button {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-left: 1rem;
 }
 body.homepage .resume {
   text-align: center;

@@ -3,9 +3,32 @@
     border-radius: .5rem;
     border: none;
     cursor: pointer;
+    transition: all 300ms;
     @include text-lg;
 
     &:hover {
         box-shadow: $shadow-lg;
+        transform: scale(1.025);
     }
+
+    &-primary {
+        background: $primary-base;
+        color: white;
+        font-weight: 700;
+        padding: .5rem 1rem;
+
+        &:hover {
+            background: $secondary-shade;
+        }
+    }
+
+    &-primary-outlined {
+        background: white;
+        border: 4px solid $primary-base;
+        color: $primary-base;
+        font-weight: 700;
+        padding: .5rem 1rem;
+
+    }
+
 }

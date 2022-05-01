@@ -15,6 +15,16 @@ body.homepage {
             font-family: 'Rubik Puddles', cursive;
             font-size: 56px;
             font-weight: 900;
+            text-decoration: none;
+            transition: all 300ms;
+
+            &:visited {
+                color:white;
+            }
+
+            &:hover {
+                color: $secondary-base;
+            }
         }
 
         .top-nav {
@@ -28,8 +38,9 @@ body.homepage {
                     @include text-lg;
                     margin-left: $space-lg-2;
 
-                    a{
+                    a {
                         text-decoration: none;
+                        transition: all 300ms;
 
                         &:visited {
                             color:white;
@@ -41,10 +52,7 @@ body.homepage {
                     }
 
                     button {
-                        color: $primary-shade;
-                        background: white;
-                        font-weight: 700;
-                        padding: .5rem 1rem;
+                        border: none;
                     }
                 }
             }
@@ -169,7 +177,7 @@ body.homepage {
 
             .radio-group {
                 :hover {
-                    color: $primary-base;
+                    color: $secondary-base;
                     cursor: pointer;
                 }
 
@@ -291,7 +299,7 @@ body.homepage {
                 text-decoration: none;
 
                 &:hover {
-                    animation: .3s logoGrow forwards;
+                    animation: 300ms logoGrow forwards;
                     @keyframes logoGrow {
                         100% {
                             background-size: 70%;
@@ -338,6 +346,8 @@ body.homepage {
                 position: relative;
                 transition: all 5s ease-in-out;
                 z-index: 4;
+                width: 70%;
+                max-width: 480px;
 
                 h3 {
                     @include text-xl;
@@ -357,7 +367,7 @@ body.homepage {
                     font-size: 30px;
                     font-weight: bold;
                     text-decoration: none;
-                    color: #333;
+                    color: $dark-base;
 
                     &:hover {
                         color: $secondary-base;
@@ -367,6 +377,18 @@ body.homepage {
                 .popup-content {
                     max-height: 30%;
                     overflow: auto;
+                }
+
+                .popup-actions {
+                    margin-top: $space-md-2;
+                    display: flex;
+                    justify-content: flex-end;
+
+                    button {
+                        @include text-lg;
+                        font-weight: 700;
+                        margin-left: $space-md-2;
+                    }
                 }
             }
         }
