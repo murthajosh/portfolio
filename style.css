@@ -516,6 +516,9 @@ body.homepage .projects .overlay .popup .popup-actions button {
 body.homepage .resume {
   text-align: center;
 }
+body.homepage .resume button {
+  margin-top: 1rem;
+}
 body.homepage .resume .dotted-line {
   margin-top: 2.5rem;
   height: 1900px;

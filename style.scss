@@ -397,6 +397,10 @@ body.homepage {
     .resume {
         text-align: center;
 
+        button {
+            margin-top: $space-md-2;
+        }
+
         .dotted-line {
             margin-top: $space-lg-2;
             height: 1900px;
