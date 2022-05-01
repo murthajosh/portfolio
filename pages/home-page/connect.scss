@@ -1,0 +1,39 @@
+.social {
+    text-align: center;
+
+    .section-heading {
+        margin-bottom: $space-md-3;
+    }
+
+    .social-links {
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 640px;
+
+        a {
+            text-decoration: none;
+            color: $tertiary-base;
+
+            &:visited {
+                color: $primary-base;
+            }
+
+            &:hover {
+                color: $tertiary-shade;
+                filter: drop-shadow($shadow-sm);
+            }
+        }
+
+        .github svg {
+            fill: #333333;
+        }
+
+        .dribbble svg {
+            fill: #ea4c89;
+        }
+
+        .linkedin svg {
+            fill: #0077b5;
+        }
+    }
+}    

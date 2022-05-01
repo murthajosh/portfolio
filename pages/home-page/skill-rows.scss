@@ -1,0 +1,56 @@
+.skill-row {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    &.reverse-stack {
+        flex-direction: column-reverse;
+
+        @media ($screen-md){
+            flex-direction: row;
+        }
+    }
+
+    @media ($screen-md){
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .col-6 {
+        flex-grow: 1;
+        flex-shrink: 1;
+        padding: 0 1rem;
+
+        p {
+            margin:  1rem 0;
+        }
+
+        img {
+            filter: drop-shadow($shadow-sm);
+            max-width: 300px;
+            margin: 2rem auto;
+
+            @media ($screen-md) {
+                max-width: 80%;
+                margin: 0;
+            }
+        }
+        ul.tools-list {
+            margin-top: $space-md-1;
+            display: flex;
+            justify-content: space-around;
+
+            @media ($screen-md) {
+                justify-content: flex-start;
+            }
+        }
+
+        li {
+
+            margin-right: 1rem;
+            .tech-logo svg {
+                height: 24px;
+            }
+        }
+    }
+}

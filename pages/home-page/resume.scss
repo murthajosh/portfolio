@@ -1,0 +1,75 @@
+.resume {
+    text-align: center;
+
+    button {
+        margin-top: $space-md-2;
+    }
+
+    .dotted-line {
+        margin-top: $space-lg-2;
+        height: 1900px;
+        border-left: 8px dotted $tertiary-tint;
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+    }
+
+    .resume-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume-item {
+        background-color: white;
+        border-radius: .5rem;
+        box-shadow: $shadow-sm;
+        width: 320px;
+        padding: 1rem 2rem 2rem 2rem;
+        text-align: left;
+        margin-top: $space-lg-2;
+        z-index: 2;
+
+        p.chip-resume-type {
+            @include text-sm;
+            font-weight: 700;;
+            text-align: right;
+            margin-top: 0;
+        }
+
+        h3.resume-heading {
+            @include text-lg;
+            font-weight: 700;
+        }
+
+        h4.resume-job-title {
+            @include text-lg;
+        }
+
+        p.resume-date {
+            @include text-sm;
+            margin-top: 0;
+            opacity: 66%;
+        }
+
+        &.work {
+            border-top: 1rem solid $primary-base;
+
+            .chip-resume-type {
+                color: $primary-base;
+            }
+        }
+
+        &.education {
+            border-top: 1rem solid $secondary-shade;
+
+            .chip-resume-type {
+                color: $secondary-shade;
+            }
+        }
+
+        li {
+            margin: 1rem 0;
+        }
+    }
+}

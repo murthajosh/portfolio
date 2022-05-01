@@ -1,0 +1,27 @@
+.hero {
+    text-align: center;
+
+    .hero-image {
+        margin-top: $space-md-2;
+        filter: drop-shadow($shadow-sm);
+        animation: 3s bobble infinite linear;
+
+        @keyframes bobble {
+            0% {
+                transform: rotate(0deg)
+            }
+            25% {
+                transform: rotate(7deg)
+            }
+            50% {
+                transform: rotate(0deg)
+            }
+            75%{
+                transform: rotate(-7deg)
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+}

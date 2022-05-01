@@ -1,0 +1,56 @@
+header {
+    background: $primary-base;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 3rem;
+
+    .logo-text {
+        font-family: 'Rubik Puddles', cursive;
+        font-size: 56px;
+        font-weight: 900;
+        text-decoration: none;
+        transition: all 300ms;
+
+        &:visited {
+            color:white;
+        }
+
+        &:hover {
+            color: $secondary-base;
+        }
+    }
+
+    .top-nav {
+        font-weight: 700;
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            li {
+                @include text-lg;
+                margin-left: $space-lg-2;
+
+                a {
+                    text-decoration: none;
+                    transition: all 300ms;
+
+                    &:visited {
+                        color:white;
+                    }
+
+                    &:hover {
+                        color: $secondary-base;
+                    }
+                }
+
+                button {
+                    border: none;
+                }
+            }
+        }
+    }
+}

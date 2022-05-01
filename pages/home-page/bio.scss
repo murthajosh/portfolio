@@ -1,0 +1,34 @@
+.bio {
+    text-align: center;
+
+    .bio-radios {
+        justify-content: space-around;
+        margin: $space-md-3 auto;
+        max-width: 640px;
+
+        .radio-group {
+            :hover {
+                color: $secondary-base;
+                cursor: pointer;
+            }
+
+            input {
+                left: -200vw;
+                position: absolute;
+
+                &:checked ~ label {
+                    color: $primary-base;
+                }
+            }
+
+            label {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .bios {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+}
