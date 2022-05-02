@@ -351,6 +351,7 @@ header {
   margin-bottom: 3rem;
 }
 header .logo-text {
+  color: white;
   font-family: "Rubik Puddles", cursive;
   font-size: 56px;
   font-weight: 900;
@@ -391,6 +392,7 @@ header .nav-top ul li {
   margin-left: 2.5rem;
 }
 header .nav-top ul li a {
+  color: white;
   text-decoration: none;
   transition: all 300ms;
 }
@@ -441,6 +443,7 @@ header .nav-curtain ul li {
   margin-top: 2.5rem;
 }
 header .nav-curtain ul li a {
+  color: white;
   text-decoration: none;
   transition: all 300ms;
 }
@@ -686,11 +689,12 @@ header .nav-curtain ul li button {
   display: flex;
   justify-content: flex-end;
 }
-.projects .overlay .popup .popup-actions button {
+.projects .overlay .popup .popup-actions .project-link-button {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
   margin-left: 1rem;
+  text-decoration: none;
 }
 
 .resume {

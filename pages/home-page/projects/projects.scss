@@ -123,10 +123,11 @@
                 display: flex;
                 justify-content: flex-end;
 
-                button {
+                .project-link-button {
                     @include text-lg;
                     font-weight: 700;
                     margin-left: $space-md-2;
+                    text-decoration: none;
                 }
             }
         }
