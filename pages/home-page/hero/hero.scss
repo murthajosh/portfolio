@@ -2,8 +2,8 @@
     text-align: center;
 
     .hero-image {
-        margin-top: $space-md-2;
-        filter: drop-shadow($shadow-sm);
+        font-size: 100px;
+        margin-top: $space-lg-3;
         animation: 3s bobble infinite linear;
 
         @keyframes bobble {

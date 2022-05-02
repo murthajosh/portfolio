@@ -457,6 +457,74 @@ header .nav-curtain ul li button {
   border: none;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.overlay .popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  z-index: 4;
+  width: 70%;
+  max-width: 480px;
+}
+.overlay .popup h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.overlay .popup .popup-content {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.overlay .popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1E232C;
+}
+.overlay .popup .close:hover {
+  color: #14FF47;
+}
+.overlay .popup .popup-content {
+  max-height: 30%;
+  overflow: auto;
+}
+.overlay .popup .popup-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.overlay .popup .popup-actions .popup-link-button {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
 .hidden {
   display: none;
 }
@@ -470,8 +538,8 @@ header .nav-curtain ul li button {
   text-align: center;
 }
 .hero .hero-image {
-  margin-top: 1rem;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  font-size: 100px;
+  margin-top: 3rem;
   animation: 3s bobble infinite linear;
 }
 @keyframes bobble {
@@ -628,73 +696,6 @@ header .nav-curtain ul li button {
 }
 .projects .project-grid .project-grid-item p.tech {
   align-self: flex-end;
-}
-.projects .overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 3;
-}
-.projects .overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-.projects .overlay .popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 30%;
-  position: relative;
-  transition: all 5s ease-in-out;
-  z-index: 4;
-  width: 70%;
-  max-width: 480px;
-}
-.projects .overlay .popup h3 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-.projects .overlay .popup .popup-content {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.projects .overlay .popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #1E232C;
-}
-.projects .overlay .popup .close:hover {
-  color: #14FF47;
-}
-.projects .overlay .popup .popup-content {
-  max-height: 30%;
-  overflow: auto;
-}
-.projects .overlay .popup .popup-actions {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: flex-end;
-}
-.projects .overlay .popup .popup-actions .project-link-button {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-  margin-left: 1rem;
-  text-decoration: none;
 }
 
 .resume {
