@@ -11,6 +11,11 @@
         transform: scale(1.025);
     }
 
+    &:active {
+        box-shadow: none;
+        transform: none;
+    }
+
     &-primary {
         background: $primary-base;
         color: white;
@@ -28,6 +33,16 @@
         color: $primary-base;
         font-weight: 700;
         padding: .5rem 1rem;
+
+        &:hover {
+            border: 4px solid $secondary-base;
+            color: $secondary-base;
+        }
+
+        &:active {
+            border: 4px solid $primary-shade;
+            color: $primary-shade;
+        }
 
     }
 

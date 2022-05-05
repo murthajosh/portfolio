@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap&family=Rubik+Puddles&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script defer src="./pages/home-page/bio/bio.js"></script>
+    <script defer src="./pages/homepage/bio/bio.js"></script>
     <script defer src="./base/components/header/header.js"></script>
     <title>Josh Murtha</title>
 </head>
@@ -29,7 +29,7 @@
                     <a href="#resume">Resume</a>
                 </li>
                 <li>
-                    <button class="button button-primary-outlined">Get In Touch</button>
+                    <a href="contact.html"class="button button-primary-outlined">Get In Touch</a>
                 </li>
             </ul>
         </nav>
@@ -44,7 +44,7 @@
                     <a href="#resume" class="nav-toggle">Resume</a>
                 </li>
                 <li>
-                    <button class="button button-primary-outlined">Get In Touch</button>
+                    <a class="button button-primary-outlined">Get In Touch</a>
                 </li>
             </ul>
         </nav>
@@ -59,19 +59,19 @@
             <div class="container">
                 <div>
                     <fieldset class="row bio-radios">
-                        <div class="radio-group">
-                            <input type="radio" id="bio-short" name="bio-length" value="short" class="cursor-pointer opacity-0" checked>
-                            <label for="bio-short" class="material-icons-round cursor-pointer focus:text-red-800">short_text</label>
+                        <div class="radio-group" tabindex="0">
+                            <input type="radio" id="bio-short" name="bio-length" value="short" tabindex="0" checked>
+                            <label for="bio-short" aria-hidden="true" class="material-icons-round cursor-pointer focus:text-red-800">short_text</label>
                         </div>
                         
-                        <div class="radio-group">
-                            <input type="radio" id="bio-medium" name="bio-length" value="medium" class="cursor-pointer opacity-0">
-                            <label for="bio-medium" class="material-icons-round cursor-pointer">density_medium</label>
+                        <div class="radio-group" tabindex="0">
+                            <input type="radio" id="bio-medium" name="bio-length" value="medium" tabindex="0">
+                            <label for="bio-medium" aria-hidden="true" class="material-icons-round cursor-pointer">density_medium</label>
                         </div>
                         
-                        <div class="radio-group">
-                            <input type="radio" id="bio-long" name="bio-length" value="long" class="cursor-pointer opacity-0">
-                            <label for="bio-long" class="material-icons-round cursor-pointer">format_align_justify</label>
+                        <div class="radio-group" tabindex="0">
+                            <input type="radio" id="bio-long" name="bio-length" value="long" tabindex="0">
+                            <label for="bio-long" aria-hidden="true" class="material-icons-round cursor-pointer">format_align_justify</label>
                         </div>
                     </fieldset>
                     <div class="bios">
@@ -228,7 +228,7 @@
                     <h3>HDpiano.com</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
                     <div class="popup-content">
-                        When I got to HDpiano, the site hadn't been updated in a few years. Since then I've worked as part of a small two-person team to overhaul the UX & UI design and rebuild the custom Wordpress theme in a way that's lighter and easier to maintain. We've seen big improvements in accessibility and performance scores as well as engagement and conversion rate. I haven't included a long-form case study on the design work here, but if you're interested in what we're doing over there don't hesitate to reach out.
+                        When I got to HDpiano, the site hadn't been updated in a few years. Since then I've worked as part of a two-person team to overhaul the UX & UI design and rebuild the custom Wordpress theme in a way that's lighter and easier to maintain. <br><br> I'm happy to say we've seen big improvements in accessibility and performance scores as well as engagement and conversion rate.<br><br>I haven't included a long-form case study on the design work here, but if you're interested in what we're doing over there don't hesitate to reach out.
                     </div>
                     <div class="popup-actions">
                         <a href="https://www.hdpiano.com" class="button button-primary-outlined popup-link-button" target="blank" alt="Check out HDpiano.com!">To HDpiano</a>
@@ -240,7 +240,7 @@
                     <h3>Chord Chemist</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
                     <div class="popup-content">
-                        Chord Chemist is a React app for learning guitar chords. It gets data from the uber-chord api and displays it on an HTML fretboard diagram in the browser. For now it only offers basic major and minor chords, but I plan to extend it and build it into a powerful learning tool for visualizing harmony on the guitar.
+                        Chord Chemist is a React app for learning guitar chords.<br><br> It gets data from the uber-chord api and displays it on an HTML fretboard diagram in the browser. <br><br>For now it only offers basic major and minor chords, but I plan to extend it into a more robust guitar learning tool.
                     </div>
                     <div class="popup-actions">
                         <a href="https://www.chord-chemist.web.app "class="button button-primary-outlined popup-link-button" target="blank" alt="Check out Chord Chemist Live!">View Project</a>
@@ -253,7 +253,7 @@
                     <h3>WePiano</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
                     <div class="popup-content">
-                        WePiano is a sister site of HDpiano. While HDpiano focuses on hit song tutorials, WePiano is home to more in-depth theory and technique courses for piano learners. In terms of tech, it's mostly out of the box plugins. My role on this project centered around branding, graphic design, and some custom CSS to tweak the theme. 
+                        WePiano is a sister site of HDpiano. While HDpiano focuses on hit song tutorials, WePiano is home to more in-depth theory and technique courses for piano learners. <br><br>In terms of tech, it's mostly out of the box plugins. <br><br>My role on this project centered around branding, graphic design, and some custom CSS to tweak the theme. 
                     </div>
                     <div class="popup-actions">
                         <a href="https://www.wepiano.com" class="button button-primary-outlined popup-link-button" target="blank" alt="Check out We Piano.com">To WePiano</a>
@@ -265,7 +265,7 @@
                     <h3>Keypix</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
                     <div class="popup-content">
-                        Keypix is an internal tool I built for the HDpiano content team. Well, really I built it to save myself time... Our instructors needed to create graphic piano diagrams for the PDF leaarning materials they were making. After creating a Figma template that proved too steep a learning curve, I decided I needed to make something that was truly point and click to generate these assets. It was a good review of jQuery for me, and the content team is now able to quickly generate the graphic assets they need. 
+                        Keypix is an internal tool I built for the HDpiano content team. Well, really I built it to save myself time... <br><br>Our instructors needed to create graphic piano diagrams for the PDF leaarning materials they were making. After creating a Figma template that proved too steep a learning curve, I decided I needed to make something that was truly point and click to generate these assets. <br><br>It was a good review of jQuery for me, and the content team is now able to quickly generate the graphic assets they need. 
                     </div>
                     <div class="popup-actions">
                         <a href="https://keypix-d2b6e.web.app" class="button button-primary-outlined popup-link-button" target="blank" alt="Check out KeyPix live!">View Project</a>
@@ -278,7 +278,7 @@
                     <h3>BossTalk</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
                     <div class="popup-content">
-                        BossTalk is a fun and simple project I did for a class. It gets business jargon from an api and displays it on screen with a 'copy to clipboard' button so a user can paste some corporate word salad into their emails in an effort to sound smarter.
+                        BossTalk is a fun and simple project I did for a class. It gets business jargon from an api and displays it on screen with a 'copy to clipboard' button so a user can paste some corporate word salad into their emails in an effort to sound more intelligent.
                     </div>
                     <div class="popup-actions">
                         <a href="https://bosstalk.web.app/" class="button button-primary-outlined popup-link-button" target="blank" alt="Check out BossTalk live!">View Project</a>
@@ -291,7 +291,7 @@
                     <h3>This Portfolio</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
                     <div class="popup-content">
-                        This static site is built with Sass and a little Vanilla JS. If you'd like, you can scope out the code.
+                        This static site is built with Sass and a little Vanilla JS. If you'd like, you can scope out the code on GitHub.
                     </div>
                     <div class="popup-actions">
                         <button class="button button-primary-outlined popup-link-button">To GitHub</button>
