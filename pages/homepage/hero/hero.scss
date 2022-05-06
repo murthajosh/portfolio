@@ -1,50 +1,46 @@
 .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     text-align: center;
+    background-image:url("assets/bg-hero.png"),linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.1));
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 1rem;
+
+
+    @media ($screen-lg) {
+       height: 500px;
+    }
+
+    @media ($screen-xl) {
+        @include text-10xl;
+    }
 
     h1 {
-    
+        color: white;
+        filter: drop-shadow($shadow-sm);
+        text-align: center;
         font-weight: 700;
     
-        @include text-5xl;
+        @include text-6xl;
         
         @media ($screen-sm) {
-            @include text-6xl;
-        }
-    
-        @media ($screen-md) {
             @include text-7xl;
         }
     
-        @media ($screen-lg) {
+        @media ($screen-md) {
             @include text-8xl;
         }
     
-        @media ($screen-xl) {
+        @media ($screen-lg) {
             @include text-9xl;
         }
-    }
-
-    .hero-image {
-        font-size: 100px;
-        margin-top: $space-lg-3;
-        animation: 3s bobble infinite linear;
-
-        @keyframes bobble {
-            0% {
-                transform: rotate(0deg)
-            }
-            25% {
-                transform: rotate(7deg)
-            }
-            50% {
-                transform: rotate(0deg)
-            }
-            75%{
-                transform: rotate(-7deg)
-            }
-            100% {
-                transform: rotate(0deg);
-            }
+    
+        @media ($screen-xl) {
+            @include text-10xl;
         }
     }
 }

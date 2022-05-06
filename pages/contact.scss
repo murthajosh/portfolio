@@ -1,82 +1,84 @@
-h1 {
+body.contact {
+    h1 {
     
-    font-weight: 700;
-    margin: 3rem 0 1rem 0;
-
-    @include text-5xl;
+        font-weight: 700;
+        margin: 3rem 0 1rem 0;
     
-    @media ($screen-sm) {
-        @include text-6xl;
-    }
-
-    @media ($screen-md) {
-        @include text-7xl;
-    }
-
-    @media ($screen-lg) {
-        @include text-8xl;
-    }
-
-    @media ($screen-xl) {
-        @include text-9xl;
-    }
-}
-
-p {
-    max-width: 640px;
-}
-
-.my-email {
-
-    margin-top: $space-md-3;
-    cursor: pointer;
-    font-weight: 700;
-
-    @include text-2xl;
-    
-    @media ($screen-sm) {
-        @include text-3xl;
-    }
-
-    @media ($screen-md) {
-        @include text-4xl;
-    }
-
-    @media ($screen-lg) {
         @include text-5xl;
-    }
-
-    @media ($screen-xl) {
-        @include text-6xl;
-    }
-
-    &:after {
-     @include text-base;
-    background-color: $light-tint;
-    border-radius: 1rem;
-    color: $dark-base;
-    content: 'Click to copy to clipboard.';
-    display: none;
-    margin-top: .5rem;
-    padding: .5rem 1rem;
-    text-align: center;
-    width: max-content;
-    z-index: 999;
-    }
-
-    &:hover {
-        color: $primary-base;
-
-        &::after {
-            display: block;
+        
+        @media ($screen-sm) {
+            @include text-6xl;
+        }
+    
+        @media ($screen-md) {
+            @include text-7xl;
+        }
+    
+        @media ($screen-lg) {
+            @include text-8xl;
+        }
+    
+        @media ($screen-xl) {
+            @include text-9xl;
         }
     }
-    &:active {
-        color: $primary-shade;
-
-        &::after {
-            content:'Copied!';
-            color: $secondary-shade;
+    
+    p {
+        max-width: 640px;
+    }
+    
+    .my-email {
+    
+        margin-top: $space-md-3;
+        cursor: pointer;
+        font-weight: 700;
+    
+        @include text-2xl;
+        
+        @media ($screen-sm) {
+            @include text-3xl;
+        }
+    
+        @media ($screen-md) {
+            @include text-4xl;
+        }
+    
+        @media ($screen-lg) {
+            @include text-5xl;
+        }
+    
+        @media ($screen-xl) {
+            @include text-6xl;
+        }
+    
+        &:after {
+         @include text-base;
+        background-color: $light-tint;
+        border-radius: 1rem;
+        color: $dark-base;
+        content: 'Click to copy to clipboard.';
+        display: none;
+        margin-top: .5rem;
+        padding: .5rem 1rem;
+        text-align: center;
+        width: max-content;
+        z-index: 999;
+        }
+    
+        &:hover {
+            color: $primary-base;
+    
+            &::after {
+                display: block;
+            }
+        }
+        &:active {
+            color: $primary-shade;
+    
+            &::after {
+                content:'Copied!';
+                color: $secondary-shade;
+            }
         }
     }
 }
