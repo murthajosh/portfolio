@@ -19,7 +19,7 @@ header {
         }
 
         &:hover {
-            color: $secondary-base;
+            color: $tertiary-shade;
         }
     }
 
@@ -61,16 +61,17 @@ header {
                     }
 
                     &:hover {
-                        color: $secondary-base;
+                        color: $tertiary-shade;
                     }
 
                     &.button-primary-outlined {
-                        color: $primary-base;
-                        border: 4px solid $primary-base;
+                        color: white;
+                        background: none;
+                        border: 4px solid white;
 
                         &:hover {
-                            border: 4px solid $secondary-base;
-                            color: $secondary-base;
+                            background: white;
+                            color: $tertiary-shade;
                         }
                 
                         &:active {

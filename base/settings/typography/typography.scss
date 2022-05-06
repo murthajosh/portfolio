@@ -2,31 +2,6 @@
 
 body {
     
-    section:not(.hero) {
-        padding: $space-md-3 0;
-    
-        &.ux,
-        &.fe {
-            background: $light-tint;
-        }
-    
-        @media ($screen-sm) {
-            padding: $space-lg-1 0;
-        }
-    
-        @media ($screen-md) {
-            padding: $space-lg-2 0;
-        }
-    
-        @media ($screen-lg) {
-            padding: $space-lg-3 0;
-        }
-    
-        @media ($screen-xl) {
-            padding: $space-xl-1 0;
-        }
-    }
-    
     h2.section-heading {
     
         font-weight: 700;
