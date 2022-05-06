@@ -7,7 +7,7 @@
 
     .dotted-line {
         margin-top: $space-lg-2;
-        height: 1800px;
+        height: 2400px;
         border-left: 8px dotted $light-shade;
         position: absolute;
         z-index: 1;
@@ -50,6 +50,10 @@
             @include text-sm;
             margin-top: 0;
             opacity: 66%;
+        }
+
+        ul.duties li {
+            @include text-base;
         }
 
         &.work {

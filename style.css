@@ -736,7 +736,7 @@ header .nav-curtain ul li a.button-primary-outlined:active {
 }
 .resume .dotted-line {
   margin-top: 2.5rem;
-  height: 1800px;
+  height: 2400px;
   border-left: 8px dotted #E5E8EB;
   position: absolute;
   z-index: 1;
@@ -778,6 +778,10 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   line-height: 1.25rem;
   margin-top: 0;
   opacity: 66%;
+}
+.resume .resume-item ul.duties li {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .resume .resume-item.work {
   border-top: 1rem solid #7B67F8;
