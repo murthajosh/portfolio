@@ -347,15 +347,15 @@ section:not(.hero) {
 }
 
 header {
-  background: #A1BAB2;
-  color: white;
+  background: white;
+  color: #1E232C;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
 }
 header .logo-text {
-  color: white;
+  color: #1E232C;
   font-family: "Rubik Puddles", cursive;
   font-size: 56px;
   font-weight: 900;
@@ -363,7 +363,7 @@ header .logo-text {
   transition: all 300ms;
 }
 header .logo-text:visited {
-  color: white;
+  color: #1E232C;
 }
 header .logo-text:hover {
   color: #815050;
@@ -379,7 +379,7 @@ header .icon-hamburger {
   }
 }
 header .icon-hamburger:hover {
-  color: #E0C395;
+  color: #815050;
 }
 header .nav-top {
   display: none;
@@ -396,23 +396,24 @@ header .nav-top ul li {
   margin-left: 2.5rem;
 }
 header .nav-top ul li a {
-  color: white;
+  color: #1E232C;
   text-decoration: none;
   transition: all 300ms;
 }
 header .nav-top ul li a:visited {
-  color: white;
+  color: #1E232C;
 }
 header .nav-top ul li a:hover {
   color: #815050;
 }
 header .nav-top ul li a.button-primary-outlined {
-  color: white;
+  color: #1E232C;
   background: none;
-  border: 4px solid white;
+  border: 4px solid #1E232C;
 }
 header .nav-top ul li a.button-primary-outlined:hover {
   background: white;
+  border: 4px solid #815050;
   color: #815050;
 }
 header .nav-top ul li a.button-primary-outlined:active {
@@ -567,6 +568,11 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   background-size: cover;
   height: 300px;
   padding: 1rem;
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 400px;
+  }
 }
 @media (min-width: 1024px) {
   .hero {

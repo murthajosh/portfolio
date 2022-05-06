@@ -9,6 +9,10 @@
     height: 300px;
     padding: 1rem;
 
+    @media ($screen-md) {
+        height: 400px;
+     }
+
 
     @media ($screen-lg) {
        height: 500px;
