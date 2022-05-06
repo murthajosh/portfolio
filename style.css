@@ -110,97 +110,68 @@
   flex-basis: 91.666666%;
 }
 
-body.homepage h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 1;
-}
-@media (min-width: 640px) {
-  body.homepage h1 {
-    font-size: 3rem;
-    line-height: 1;
-  }
-}
-@media (min-width: 768px) {
-  body.homepage h1 {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-}
-@media (min-width: 1024px) {
-  body.homepage h1 {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-}
-@media (min-width: 1280px) {
-  body.homepage h1 {
-    font-size: 6rem;
-    line-height: 1;
-  }
-}
-body.homepage section:not(.hero) {
+body section:not(.hero) {
   padding: 1.5rem 0;
 }
-body.homepage section:not(.hero).ux, body.homepage section:not(.hero).fe {
+body section:not(.hero).ux, body section:not(.hero).fe {
   background: #F8F8F8;
 }
 @media (min-width: 640px) {
-  body.homepage section:not(.hero) {
+  body section:not(.hero) {
     padding: 2rem 0;
   }
 }
 @media (min-width: 768px) {
-  body.homepage section:not(.hero) {
+  body section:not(.hero) {
     padding: 2.5rem 0;
   }
 }
 @media (min-width: 1024px) {
-  body.homepage section:not(.hero) {
+  body section:not(.hero) {
     padding: 3rem 0;
   }
 }
 @media (min-width: 1280px) {
-  body.homepage section:not(.hero) {
+  body section:not(.hero) {
     padding: 3.5rem 0;
   }
 }
-body.homepage h2.section-heading {
+body h2.section-heading {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 @media (min-width: 640px) {
-  body.homepage h2.section-heading {
+  body h2.section-heading {
     font-size: 2.5rem;
     line-height: 1;
   }
 }
 @media (min-width: 768px) {
-  body.homepage h2.section-heading {
+  body h2.section-heading {
     font-size: 3rem;
     line-height: 1;
   }
 }
 @media (min-width: 1024px) {
-  body.homepage h2.section-heading {
+  body h2.section-heading {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
 @media (min-width: 1280px) {
-  body.homepage h2.section-heading {
+  body h2.section-heading {
     font-size: 4.5rem;
     line-height: 1;
   }
 }
-body.homepage p {
+body p {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
 }
 @media (min-width: 768px) {
-  body.homepage p {
+  body p {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
@@ -567,6 +538,35 @@ header .nav-curtain ul li a.button-primary-outlined:active {
 .hero {
   text-align: center;
 }
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  .hero h1 {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
 .hero .hero-image {
   font-size: 100px;
   margin-top: 3rem;
@@ -825,6 +825,100 @@ header .nav-curtain ul li a.button-primary-outlined:active {
 }
 .social .social-links .linkedin svg {
   fill: #0077b5;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 3rem 0 1rem 0;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+
+p {
+  max-width: 640px;
+}
+
+.my-email {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (min-width: 640px) {
+  .my-email {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+@media (min-width: 768px) {
+  .my-email {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .my-email {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  .my-email {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+.my-email:after {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: #F8F8F8;
+  border-radius: 1rem;
+  color: #1E232C;
+  content: "Click to copy to clipboard.";
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  width: max-content;
+  z-index: 999;
+}
+.my-email:hover {
+  color: #7B67F8;
+}
+.my-email:hover::after {
+  display: block;
+}
+.my-email:active {
+  color: #5A41F6;
+}
+.my-email:active::after {
+  content: "Copied!";
+  color: #00E532;
 }
 
 /*# sourceMappingURL=style.css.map */
