@@ -363,7 +363,7 @@ header {
 header .logo-text {
   color: #1E232C;
   font-family: "Grape Nuts", cursive;
-  font-size: 56px;
+  font-size: 32px;
   font-weight: 900;
   text-decoration: none;
   transition: all 300ms;
@@ -373,6 +373,9 @@ header .logo-text:visited {
 }
 header .logo-text:hover {
   color: #815050;
+}
+header .logo-text:active {
+  color: #E2D0D0;
 }
 header .icon-hamburger {
   cursor: pointer;
@@ -386,6 +389,9 @@ header .icon-hamburger {
 }
 header .icon-hamburger:hover {
   color: #815050;
+}
+header .icon-hamburger:active {
+  color: #E2D0D0;
 }
 header .nav-top {
   display: none;
@@ -432,7 +438,7 @@ header .nav-top ul li a.button-primary-outlined:active {
   }
 }
 header .nav-curtain {
-  background: #A1BAB2;
+  background: #815050;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -450,7 +456,7 @@ header .nav-curtain .menu-close {
   right: 2rem;
 }
 header .nav-curtain .menu-close:hover {
-  color: #E0C395;
+  color: white;
 }
 header .nav-curtain ul {
   display: flex;
@@ -475,16 +481,16 @@ header .nav-curtain ul li a:hover {
   color: #E0C395;
 }
 header .nav-curtain ul li a.button-primary-outlined {
-  color: #A1BAB2;
-  border: 4px solid #A1BAB2;
+  color: #1E232C;
+  border: 4px solid #1E232C;
 }
 header .nav-curtain ul li a.button-primary-outlined:hover {
-  border: 4px solid #E0C395;
-  color: #E0C395;
+  border: 4px solid #815050;
+  color: #815050;
 }
 header .nav-curtain ul li a.button-primary-outlined:active {
-  border: 4px solid #618479;
-  color: #618479;
+  border: 4px solid #E2D0D0;
+  color: #E2D0D0;
 }
 
 .overlay {
@@ -783,7 +789,7 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   100% {
     background-size: 70%;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
-    border: 8px solid #815050;
+    border: 8px solid #E5E8EB;
   }
 }
 .projects .project-grid .project-grid-item p {
@@ -1262,7 +1268,7 @@ header {
 header .logo-text {
   color: #1E232C;
   font-family: "Grape Nuts", cursive;
-  font-size: 56px;
+  font-size: 32px;
   font-weight: 900;
   text-decoration: none;
   transition: all 300ms;
@@ -1272,6 +1278,9 @@ header .logo-text:visited {
 }
 header .logo-text:hover {
   color: #815050;
+}
+header .logo-text:active {
+  color: #E2D0D0;
 }
 header .icon-hamburger {
   cursor: pointer;
@@ -1285,6 +1294,9 @@ header .icon-hamburger {
 }
 header .icon-hamburger:hover {
   color: #815050;
+}
+header .icon-hamburger:active {
+  color: #E2D0D0;
 }
 header .nav-top {
   display: none;
@@ -1331,7 +1343,7 @@ header .nav-top ul li a.button-primary-outlined:active {
   }
 }
 header .nav-curtain {
-  background: #A1BAB2;
+  background: #815050;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1349,7 +1361,7 @@ header .nav-curtain .menu-close {
   right: 2rem;
 }
 header .nav-curtain .menu-close:hover {
-  color: #E0C395;
+  color: white;
 }
 header .nav-curtain ul {
   display: flex;
@@ -1374,16 +1386,16 @@ header .nav-curtain ul li a:hover {
   color: #E0C395;
 }
 header .nav-curtain ul li a.button-primary-outlined {
-  color: #A1BAB2;
-  border: 4px solid #A1BAB2;
+  color: #1E232C;
+  border: 4px solid #1E232C;
 }
 header .nav-curtain ul li a.button-primary-outlined:hover {
-  border: 4px solid #E0C395;
-  color: #E0C395;
+  border: 4px solid #815050;
+  color: #815050;
 }
 header .nav-curtain ul li a.button-primary-outlined:active {
-  border: 4px solid #618479;
-  color: #618479;
+  border: 4px solid #E2D0D0;
+  color: #E2D0D0;
 }
 
 .overlay {
@@ -1542,17 +1554,17 @@ body.contact .my-email:after {
   z-index: 999;
 }
 body.contact .my-email:hover {
-  color: #A1BAB2;
+  color: #815050;
 }
 body.contact .my-email:hover::after {
   display: block;
 }
 body.contact .my-email:active {
-  color: #618479;
+  color: #E2D0D0;
 }
 body.contact .my-email:active::after {
   content: "Copied!";
-  color: #CC9D51;
+  color: #00E532;
 }
 
 /*# sourceMappingURL=style.css.map */

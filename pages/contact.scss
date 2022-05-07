@@ -68,18 +68,18 @@ body.contact {
         }
     
         &:hover {
-            color: $primary-base;
+            color: $tertiary-shade;
     
             &::after {
                 display: block;
             }
         }
         &:active {
-            color: $primary-shade;
+            color: $tertiary-tint;
     
             &::after {
                 content:'Copied!';
-                color: $secondary-shade;
+                color: $success-shade;
             }
         }
     }

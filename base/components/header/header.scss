@@ -9,7 +9,7 @@ header {
     .logo-text {
         color: $dark-base;
         font-family: 'Grape Nuts', cursive;
-        font-size: 56px;
+        font-size: 32px;
         font-weight: 900;
         text-decoration: none;
         transition: all 300ms;
@@ -20,6 +20,10 @@ header {
 
         &:hover {
             color: $tertiary-shade;
+        }
+
+        &:active {
+            color: $tertiary-tint;
         }
     }
 
@@ -34,6 +38,10 @@ header {
 
         &:hover {
             color: $tertiary-shade;
+        }
+
+        &:active {
+            color: $tertiary-tint;
         }
 
     }
@@ -90,7 +98,7 @@ header {
     }
 
     .nav-curtain {
-        background: $primary-base;
+        background: $tertiary-shade;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -108,7 +116,7 @@ header {
             right: 2rem;
 
             &:hover {
-                color: $secondary-base;
+                color: white;
             }
         }
 
@@ -136,17 +144,17 @@ header {
                     }
 
                     &.button-primary-outlined {
-                        color: $primary-base;
-                        border: 4px solid $primary-base;
+                        color: $dark-base;
+                        border: 4px solid $dark-base;
 
                         &:hover {
-                            border: 4px solid $secondary-base;
-                            color: $secondary-base;
+                            border: 4px solid $tertiary-shade;
+                            color: $tertiary-shade;
                         }
                 
                         &:active {
-                            border: 4px solid $primary-shade;
-                            color: $primary-shade;
+                            border: 4px solid $tertiary-tint;
+                            color: $tertiary-tint;
                         }
                     }
                 }
