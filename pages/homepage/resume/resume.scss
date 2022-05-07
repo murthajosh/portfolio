@@ -57,18 +57,18 @@
         }
 
         &.work {
-            border-top: 1rem solid $primary-base;
+            border-top: 1rem solid $tertiary-shade;
 
             .chip-resume-type {
-                color: $primary-base;
+                color: $tertiary-shade;
             }
         }
 
         &.education {
-            border-top: 1rem solid $secondary-shade;
+            border-top: 1rem solid $primary-base;
 
             .chip-resume-type {
-                color: $secondary-shade;
+                color: $primary-base;
             }
         }
 
