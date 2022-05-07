@@ -423,8 +423,8 @@ header .nav-top ul li a.button-primary-outlined:hover {
   color: #815050;
 }
 header .nav-top ul li a.button-primary-outlined:active {
-  border: 4px solid #618479;
-  color: #618479;
+  border: 4px solid #E2D0D0;
+  color: #E2D0D0;
 }
 @media (min-width: 768px) {
   header .nav-top {
@@ -783,7 +783,7 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   100% {
     background-size: 70%;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
-    border: 8px solid #E0C395;
+    border: 8px solid #815050;
   }
 }
 .projects .project-grid .project-grid-item p {
