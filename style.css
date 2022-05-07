@@ -134,42 +134,48 @@ section:not(.hero) {
   }
 }
 
-body h2.section-heading {
+h1,
+h2 {
+  font-family: "Grape Nuts", cursive;
+}
+
+h2.section-heading {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 @media (min-width: 640px) {
-  body h2.section-heading {
+  h2.section-heading {
     font-size: 2.5rem;
     line-height: 1;
   }
 }
 @media (min-width: 768px) {
-  body h2.section-heading {
+  h2.section-heading {
     font-size: 3rem;
     line-height: 1;
   }
 }
 @media (min-width: 1024px) {
-  body h2.section-heading {
+  h2.section-heading {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
 @media (min-width: 1280px) {
-  body h2.section-heading {
+  h2.section-heading {
     font-size: 4.5rem;
     line-height: 1;
   }
 }
-body p {
+
+p {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
 }
 @media (min-width: 768px) {
-  body p {
+  p {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
@@ -356,7 +362,7 @@ header {
 }
 header .logo-text {
   color: #1E232C;
-  font-family: "Rubik Puddles", cursive;
+  font-family: "Grape Nuts", cursive;
   font-size: 56px;
   font-weight: 900;
   text-decoration: none;
@@ -649,6 +655,34 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   margin: 0 auto;
 }
 
+.ux,
+.ui,
+.fe {
+  position: relative;
+}
+
+.ux:after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  height: 1px;
+  width: 20%;
+  /* or 100px */
+  border-bottom: 8px dotted #EEF0F2;
+}
+
+.ui:after {
+  content: "";
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  height: 1px;
+  width: 20%;
+  /* or 100px */
+  border-bottom: 8px dotted #EEF0F2;
+}
+
 .skill-row {
   text-align: center;
   align-items: center;
@@ -735,7 +769,7 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   height: 14rem;
   display: flex;
   flex-direction: column;
