@@ -338,18 +338,18 @@ section:not(.hero) {
 }
 .button-primary-outlined {
   background: white;
-  border: 4px solid #A1BAB2;
-  color: #A1BAB2;
+  border: 4px solid #1E232C;
+  color: #1E232C;
   font-weight: 700;
   padding: 0.5rem 1rem;
 }
 .button-primary-outlined:hover {
-  border: 4px solid #E0C395;
-  color: #E0C395;
+  border: 4px solid #815050;
+  color: #815050;
 }
 .button-primary-outlined:active {
-  border: 4px solid #618479;
-  color: #618479;
+  border: 4px solid #E2D0D0;
+  color: #E2D0D0;
 }
 
 header {
