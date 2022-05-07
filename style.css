@@ -5,6 +5,10 @@
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 1rem;
@@ -803,8 +807,10 @@ header .nav-curtain ul li a.button-primary-outlined:active {
 .resume {
   text-align: center;
 }
-.resume button {
-  margin-top: 1rem;
+.resume .resume-link {
+  display: block;
+  margin: 1rem auto;
+  width: max-content;
 }
 .resume .dotted-line {
   margin-top: 2.5rem;
@@ -908,6 +914,10 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 100;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {

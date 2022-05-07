@@ -1,8 +1,10 @@
 .resume {
     text-align: center;
 
-    button {
-        margin-top: $space-md-2;
+    .resume-link {
+        display: block;
+        margin: $space-md-2 auto;
+        width: max-content;
     }
 
     .dotted-line {
