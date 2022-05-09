@@ -72,6 +72,24 @@ header {
                     &:hover {
                         color: $primary-shade;
                     }
+
+                    &.button-primary {
+                        background: $primary-base;
+                        color: white;
+                        font-weight: 700;
+                        border: 4px solid $primary-base;
+                        
+                        &:hover,
+                        &:focus {
+                            background: $primary-shade;
+                            border: 4px solid $primary-shade;
+                        }
+
+                        &:active {
+                            background: $primary-tint;
+                            border: 4px solid $primary-tint;
+                        }
+                    }
                 }
             }
         }
@@ -82,7 +100,7 @@ header {
     }
 
     .nav-curtain {
-        background: $primary-shade;
+        background: $light-tint;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -115,30 +133,33 @@ header {
                 margin-top: $space-lg-2;
 
                 a {
-                    color: white;
+                    color: $dark-base;
                     text-decoration: none;
                     transition: all 300ms;
 
                     &:visited {
-                        color:white;
+                        color:$dark-base;
                     }
 
                     &:hover {
                         color: $primary-base;
                     }
 
-                    &.button-primary-outlined {
-                        color: $dark-base;
-                        border: 4px solid $dark-base;
-
-                        &:hover {
+                    &.button-primary {
+                        background: $primary-base;
+                        color: white;
+                        font-weight: 700;
+                        border: 4px solid $primary-base;
+                        
+                        &:hover,
+                        &:focus {
+                            background: $primary-shade;
                             border: 4px solid $primary-shade;
-                            color: $primary-shade;
                         }
-                
+
                         &:active {
+                            background: $primary-tint;
                             border: 4px solid $primary-tint;
-                            color: $primary-tint;
                         }
                     }
                 }

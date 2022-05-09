@@ -430,13 +430,27 @@ header .nav-top ul li a:visited {
 header .nav-top ul li a:hover {
   color: #0272D9;
 }
+header .nav-top ul li a.button-primary {
+  background: #2796FC;
+  color: white;
+  font-weight: 700;
+  border: 4px solid #2796FC;
+}
+header .nav-top ul li a.button-primary:hover, header .nav-top ul li a.button-primary:focus {
+  background: #0272D9;
+  border: 4px solid #0272D9;
+}
+header .nav-top ul li a.button-primary:active {
+  background: #9DC9F1;
+  border: 4px solid #9DC9F1;
+}
 @media (min-width: 768px) {
   header .nav-top {
     display: block;
   }
 }
 header .nav-curtain {
-  background: #0272D9;
+  background: #F8F8F8;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -468,27 +482,29 @@ header .nav-curtain ul li {
   margin-top: 2.5rem;
 }
 header .nav-curtain ul li a {
-  color: white;
+  color: #1E232C;
   text-decoration: none;
   transition: all 300ms;
 }
 header .nav-curtain ul li a:visited {
-  color: white;
+  color: #1E232C;
 }
 header .nav-curtain ul li a:hover {
   color: #2796FC;
 }
-header .nav-curtain ul li a.button-primary-outlined {
-  color: #1E232C;
-  border: 4px solid #1E232C;
+header .nav-curtain ul li a.button-primary {
+  background: #2796FC;
+  color: white;
+  font-weight: 700;
+  border: 4px solid #2796FC;
 }
-header .nav-curtain ul li a.button-primary-outlined:hover {
+header .nav-curtain ul li a.button-primary:hover, header .nav-curtain ul li a.button-primary:focus {
+  background: #0272D9;
   border: 4px solid #0272D9;
-  color: #0272D9;
 }
-header .nav-curtain ul li a.button-primary-outlined:active {
+header .nav-curtain ul li a.button-primary:active {
+  background: #9DC9F1;
   border: 4px solid #9DC9F1;
-  color: #9DC9F1;
 }
 
 .overlay {
@@ -1313,13 +1329,27 @@ header .nav-top ul li a:visited {
 header .nav-top ul li a:hover {
   color: #0272D9;
 }
+header .nav-top ul li a.button-primary {
+  background: #2796FC;
+  color: white;
+  font-weight: 700;
+  border: 4px solid #2796FC;
+}
+header .nav-top ul li a.button-primary:hover, header .nav-top ul li a.button-primary:focus {
+  background: #0272D9;
+  border: 4px solid #0272D9;
+}
+header .nav-top ul li a.button-primary:active {
+  background: #9DC9F1;
+  border: 4px solid #9DC9F1;
+}
 @media (min-width: 768px) {
   header .nav-top {
     display: block;
   }
 }
 header .nav-curtain {
-  background: #0272D9;
+  background: #F8F8F8;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1351,27 +1381,29 @@ header .nav-curtain ul li {
   margin-top: 2.5rem;
 }
 header .nav-curtain ul li a {
-  color: white;
+  color: #1E232C;
   text-decoration: none;
   transition: all 300ms;
 }
 header .nav-curtain ul li a:visited {
-  color: white;
+  color: #1E232C;
 }
 header .nav-curtain ul li a:hover {
   color: #2796FC;
 }
-header .nav-curtain ul li a.button-primary-outlined {
-  color: #1E232C;
-  border: 4px solid #1E232C;
+header .nav-curtain ul li a.button-primary {
+  background: #2796FC;
+  color: white;
+  font-weight: 700;
+  border: 4px solid #2796FC;
 }
-header .nav-curtain ul li a.button-primary-outlined:hover {
+header .nav-curtain ul li a.button-primary:hover, header .nav-curtain ul li a.button-primary:focus {
+  background: #0272D9;
   border: 4px solid #0272D9;
-  color: #0272D9;
 }
-header .nav-curtain ul li a.button-primary-outlined:active {
+header .nav-curtain ul li a.button-primary:active {
+  background: #9DC9F1;
   border: 4px solid #9DC9F1;
-  color: #9DC9F1;
 }
 
 .overlay {
