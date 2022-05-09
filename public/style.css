@@ -558,15 +558,16 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   overflow: auto;
 }
 .overlay .popup .popup-actions {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 1.5rem;
 }
 .overlay .popup .popup-actions .popup-link-button {
+  text-align: center;
+  display: block;
+  width: 280px;
+  margin: 1rem auto;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
-  margin-left: 1rem;
   text-decoration: none;
 }
 
@@ -1476,15 +1477,16 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   overflow: auto;
 }
 .overlay .popup .popup-actions {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 1.5rem;
 }
 .overlay .popup .popup-actions .popup-link-button {
+  text-align: center;
+  display: block;
+  width: 280px;
+  margin: 1rem auto;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
-  margin-left: 1rem;
   text-decoration: none;
 }
 

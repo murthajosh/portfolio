@@ -58,14 +58,15 @@
         }
 
         .popup-actions {
-            margin-top: $space-md-2;
-            display: flex;
-            justify-content: flex-end;
+            margin-top: $space-md-3;
 
             .popup-link-button {
+                text-align: center;
+                display: block;
+                width: 280px;
+                margin: $space-md-2 auto;
                 @include text-lg;
                 font-weight: 700;
-                margin-left: $space-md-2;
                 text-decoration: none;
             }
         }
