@@ -19,11 +19,11 @@ header {
         }
 
         &:hover {
-            color: $tertiary-shade;
+            color: $primary-shade;
         }
 
         &:active {
-            color: $tertiary-tint;
+            color: $primary-tint;
         }
     }
 
@@ -37,11 +37,11 @@ header {
         }
 
         &:hover {
-            color: $tertiary-shade;
+            color: $primary-shade;
         }
 
         &:active {
-            color: $tertiary-tint;
+            color: $primary-tint;
         }
 
     }
@@ -69,7 +69,7 @@ header {
                     }
 
                     &:hover {
-                        color: $tertiary-shade;
+                        color: $primary-shade;
                     }
 
                     &.button-primary-outlined {
@@ -79,13 +79,13 @@ header {
 
                         &:hover {
                             background: white;
-                            border: 4px solid $tertiary-shade;
-                            color: $tertiary-shade;
+                            border: 4px solid $primary-shade;
+                            color: $primary-shade;
                         }
                 
                         &:active {
-                            border: 4px solid $tertiary-tint;
-                            color: $tertiary-tint;
+                            border: 4px solid $primary-tint;
+                            color: $primary-tint;
                         }
                     }
                 }
@@ -98,7 +98,7 @@ header {
     }
 
     .nav-curtain {
-        background: $tertiary-shade;
+        background: $primary-shade;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -140,7 +140,7 @@ header {
                     }
 
                     &:hover {
-                        color: $secondary-base;
+                        color: $primary-base;
                     }
 
                     &.button-primary-outlined {
@@ -148,13 +148,13 @@ header {
                         border: 4px solid $dark-base;
 
                         &:hover {
-                            border: 4px solid $tertiary-shade;
-                            color: $tertiary-shade;
+                            border: 4px solid $primary-shade;
+                            color: $primary-shade;
                         }
                 
                         &:active {
-                            border: 4px solid $tertiary-tint;
-                            color: $tertiary-tint;
+                            border: 4px solid $primary-tint;
+                            color: $primary-tint;
                         }
                     }
                 }

@@ -73,7 +73,7 @@ body.contact {
         }
     
         &:hover {
-            color: $tertiary-shade;
+            color: $primary-shade;
             box-shadow: $shadow-lg;
     
             &::after {
@@ -81,7 +81,7 @@ body.contact {
             }
         }
         &:active {
-            color: $tertiary-tint;
+            color: $primary-tint;
     
             &::after {
                 content:'Copied!';

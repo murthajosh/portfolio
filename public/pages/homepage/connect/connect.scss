@@ -12,14 +12,14 @@
 
         a {
             text-decoration: none;
-            color: $tertiary-base;
+            color: $primary-base;
 
             &:visited {
                 color: $primary-base;
             }
 
             &:hover {
-                color: $tertiary-shade;
+                color: $primary-shade;
                 filter: drop-shadow($shadow-sm);
             }
         }

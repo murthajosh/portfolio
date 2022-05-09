@@ -8,7 +8,7 @@
 
         .radio-group {
             :hover {
-                color: $tertiary-shade;
+                color: $primary-shade;
                 cursor: pointer;
             }
 
@@ -17,7 +17,7 @@
                 position: absolute;
 
                 &:checked ~ label {
-                    color: $tertiary-base;
+                    color: $primary-base;
                 }
             }
 

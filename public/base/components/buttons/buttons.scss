@@ -23,7 +23,7 @@
         padding: .5rem 1rem;
 
         &:hover {
-            background: $secondary-shade;
+            background: $primary-shade;
         }
     }
 
@@ -35,13 +35,13 @@
         padding: .5rem 1rem;
 
         &:hover {
-            border: 4px solid $tertiary-shade;
-            color: $tertiary-shade;
+            border: 4px solid $primary-shade;
+            color: $primary-shade;
         }
 
         &:active {
-            border: 4px solid $tertiary-tint;
-            color: $tertiary-tint;
+            border: 4px solid $primary-tint;
+            color: $primary-tint;
         }
 
     }
