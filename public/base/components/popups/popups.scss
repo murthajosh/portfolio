@@ -47,7 +47,8 @@
             text-decoration: none;
             color: $dark-base;
 
-            &:hover {
+            &:hover,
+            &:focus {
                 color: $primary-base;
             }
         }

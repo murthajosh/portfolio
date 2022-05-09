@@ -1,28 +1,3 @@
-.ux,
-.ui,
-.fe {
-    position: relative;
-}
-
-.ux:after {
-  content : "";
-  position: absolute;
-  left    : 40%;
-  bottom  : 0;
-  height  : 1px;
-  width   : 20%;  /* or 100px */
-  border-bottom: 8px dotted $light-base;
-}
-
-.ui:after {
-    content : "";
-    position: absolute;
-    left    : 40%;
-    bottom  : 0;
-    height  : 1px;
-    width   : 20%;  /* or 100px */
-    border-bottom: 8px dotted $light-base;
-  }
 .skill-row {
     text-align: center;
     align-items: center;

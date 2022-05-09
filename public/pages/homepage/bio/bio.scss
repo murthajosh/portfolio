@@ -12,6 +12,10 @@
                 cursor: pointer;
             }
 
+            &:focus {
+                color: $primary-shade;
+            }
+
             input {
                 left: -200vw;
                 position: absolute;

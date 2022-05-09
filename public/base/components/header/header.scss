@@ -18,7 +18,8 @@ header {
             color:$dark-base;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $primary-shade;
         }
 

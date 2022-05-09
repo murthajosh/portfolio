@@ -34,9 +34,11 @@
         font-weight: 700;
         padding: .5rem 1rem;
 
-        &:hover {
+        &:hover,
+        &:focus {
             border: 4px solid $primary-shade;
             color: $primary-shade;
+            box-shadow: $shadow-lg;
         }
 
         &:active {

@@ -37,13 +37,14 @@
             padding: 1rem;
             text-decoration: none;
 
-            &:hover {
+            &:hover,
+            &:focus {
                 animation: 300ms logoGrow forwards;
                 @keyframes logoGrow {
                     100% {
                         background-size: 70%;
                         box-shadow: $shadow-lg;
-                        border:  8px solid $light-shade;
+                        border:  8px solid $primary-tint;
                     }
                 }
             }
