@@ -33,7 +33,12 @@ body.contact {
     
         margin-top: $space-md-3;
         cursor: pointer;
+        font-family: 'Poppins', Sans-serif;
         font-weight: 700;
+        padding: .5rem;
+        border: 4px solid;
+        width: max-content;
+        border-radius: 1rem;
     
         @include text-2xl;
         
@@ -69,6 +74,7 @@ body.contact {
     
         &:hover {
             color: $tertiary-shade;
+            box-shadow: $shadow-lg;
     
             &::after {
                 display: block;

@@ -356,6 +356,11 @@ section:not(.hero) {
   color: #E2D0D0;
 }
 
+.footer {
+  padding: 2rem;
+  background: #F8F8F8;
+}
+
 header {
   background: white;
   color: #1E232C;
@@ -578,7 +583,9 @@ header .nav-curtain ul li a.button-primary-outlined:active {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url("assets/bg-hero.png"), linear-gradient(to top, black, rgba(0, 0, 0, 0.1));
+  background: url("assets/bg-hero.png");
+  background-color: #000;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.25);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1267,6 +1274,11 @@ section:not(.hero) {
   color: #E2D0D0;
 }
 
+.footer {
+  padding: 2rem;
+  background: #F8F8F8;
+}
+
 header {
   background: white;
   color: #1E232C;
@@ -1521,7 +1533,12 @@ body.contact p {
 body.contact .my-email {
   margin-top: 1.5rem;
   cursor: pointer;
+  font-family: "Poppins", Sans-serif;
   font-weight: 700;
+  padding: 0.5rem;
+  border: 4px solid;
+  width: max-content;
+  border-radius: 1rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -1565,6 +1582,7 @@ body.contact .my-email:after {
 }
 body.contact .my-email:hover {
   color: #815050;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
 }
 body.contact .my-email:hover::after {
   display: block;
