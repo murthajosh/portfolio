@@ -84,7 +84,7 @@ body.contact {
             color: $primary-tint;
     
             &::after {
-                content:'Copied!';
+                content:'Email copied!';
                 color: $success-shade;
             }
         }

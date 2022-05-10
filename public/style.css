@@ -1578,7 +1578,7 @@ body.contact .my-email:active {
   color: #9DC9F1;
 }
 body.contact .my-email:active::after {
-  content: "Copied!";
+  content: "Email copied!";
   color: #00E532;
 }
 
