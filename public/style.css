@@ -559,7 +559,7 @@ header .nav-curtain ul li a.button-primary:active {
   color: #2796FC;
 }
 .overlay .popup .popup-content {
-  max-height: 30%;
+  max-height: 40vh;
   overflow: auto;
 }
 .overlay .popup .popup-actions {
@@ -1458,7 +1458,7 @@ header .nav-curtain ul li a.button-primary:active {
   color: #2796FC;
 }
 .overlay .popup .popup-content {
-  max-height: 30%;
+  max-height: 40vh;
   overflow: auto;
 }
 .overlay .popup .popup-actions {
