@@ -9,3 +9,12 @@ document.addEventListener('click', function(e) {
         pageContent.classList.toggle('disabled')
     }
 })
+
+document.addEventListener('keydown', function(e) {
+    if (!e.key === "Escape") {
+        return
+    } else if (e.key === "Escape"){
+        navCurtain.classList.add('hidden')
+        pageContent.classList.remove('disabled')
+    }
+})

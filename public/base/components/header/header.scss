@@ -118,7 +118,7 @@ header {
             right: 2rem;
 
             &:hover {
-                color: white;
+                color: $primary-base;
             }
         }
 
@@ -141,7 +141,8 @@ header {
                         color:$dark-base;
                     }
 
-                    &:hover {
+                    &:hover,
+                    &:focus {
                         color: $primary-base;
                     }
 

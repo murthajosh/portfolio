@@ -468,7 +468,7 @@ header .nav-curtain .menu-close {
   right: 2rem;
 }
 header .nav-curtain .menu-close:hover {
-  color: white;
+  color: #2796FC;
 }
 header .nav-curtain ul {
   display: flex;
@@ -489,7 +489,7 @@ header .nav-curtain ul li a {
 header .nav-curtain ul li a:visited {
   color: #1E232C;
 }
-header .nav-curtain ul li a:hover {
+header .nav-curtain ul li a:hover, header .nav-curtain ul li a:focus {
   color: #2796FC;
 }
 header .nav-curtain ul li a.button-primary {
@@ -1367,7 +1367,7 @@ header .nav-curtain .menu-close {
   right: 2rem;
 }
 header .nav-curtain .menu-close:hover {
-  color: white;
+  color: #2796FC;
 }
 header .nav-curtain ul {
   display: flex;
@@ -1388,7 +1388,7 @@ header .nav-curtain ul li a {
 header .nav-curtain ul li a:visited {
   color: #1E232C;
 }
-header .nav-curtain ul li a:hover {
+header .nav-curtain ul li a:hover, header .nav-curtain ul li a:focus {
   color: #2796FC;
 }
 header .nav-curtain ul li a.button-primary {
