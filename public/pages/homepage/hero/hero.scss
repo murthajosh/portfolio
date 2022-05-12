@@ -55,6 +55,7 @@
     }
 
     p {
+        filter: drop-shadow($shadow-sm);
         font-weight: 500;
 
         @media ($screen-md) {

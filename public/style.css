@@ -651,6 +651,7 @@ header .nav-curtain ul li a.button-primary:active {
   }
 }
 .hero p {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   font-weight: 500;
 }
 @media (min-width: 768px) {
