@@ -1,0 +1,27 @@
+@import "../base/base.scss";
+
+body.case-study {
+
+    h3 {
+        @include text-lg;
+        font-weight: 700;
+        margin: $space-lg-3 auto;
+
+        @media ($screen-md) {
+            @include text-2xl;
+        }
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+    .graphic-full-width {
+        border-radius: 1rem;
+        display: block;
+        width: 75%;
+        margin: $space-md-3 auto;
+        filter: drop-shadow($shadow-lg);
+    }
+
+}
