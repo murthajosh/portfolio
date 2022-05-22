@@ -1467,8 +1467,8 @@ header .nav-curtain ul li a.button-primary:active {
 body.case-study h3 {
   font-size: 1.125rem;
   line-height: 1.75rem;
-  font-weight: 700;
-  margin: 3rem auto;
+  font-weight: 500;
+  margin: 1.5rem auto;
 }
 @media (min-width: 768px) {
   body.case-study h3 {
