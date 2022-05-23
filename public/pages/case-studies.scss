@@ -2,13 +2,56 @@
 
 body.case-study {
 
+    &.hdpiano-case-study .hero {
+        background:url("assets/case-study-hdpiano/hdpiano-hero-background.webp");
+        background-color: #000;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.35);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        
+        @include text-2xl;
+    
+        @media ($screen-sm){
+            @include text-3xl;
+        }
+    
+        @media ($screen-md){
+            @include text-4xl;
+        }
+    
+        @media ($screen-lg){
+            @include text-5xl;
+        }
+    
+        @media ($screen-xl){
+            @include text-6xl;
+        }
+    }
+
     h3 {
         @include text-lg;
         font-weight: 500;
         margin: $space-md-3 auto;
+        color: $medium-shade;
 
         @media ($screen-md) {
             @include text-2xl;
+        }
+    }
+
+    h4  {
+        @include text-base;
+        font-weight: 700;
+        margin: $space-md-3 auto;
+
+        @media ($screen-md) {
+            @include text-xl;
         }
     }
 
@@ -16,12 +59,24 @@ body.case-study {
         font-weight: 700;
     }
 
-    .graphic-full-width {
+    img {
+        display:block;
         border-radius: 1rem;
-        display: block;
-        width: 75%;
-        margin: $space-md-3 auto;
-        filter: drop-shadow($shadow-lg);
+
+        &.graphic-full-width {
+            display: block;
+            width: 75%;
+            margin: $space-md-3 auto;
+            filter: drop-shadow($shadow-lg);
+        }
     }
 
+    .skill-row {
+        margin: $space-lg-3 0;
+
+        img {
+            max-height: 500px;
+            margin: 0 auto;
+        }
+    }
 }

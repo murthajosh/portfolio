@@ -1464,11 +1464,50 @@ header .nav-curtain ul li a.button-primary:active {
   touch-action: none;
 }
 
+body.case-study.hdpiano-case-study .hero {
+  background: url("assets/case-study-hdpiano/hdpiano-hero-background.webp");
+  background-color: #000;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.35);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body.case-study h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (min-width: 640px) {
+  body.case-study h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+@media (min-width: 768px) {
+  body.case-study h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  body.case-study h2 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  body.case-study h2 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
 body.case-study h3 {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 500;
   margin: 1.5rem auto;
+  color: #70727B;
 }
 @media (min-width: 768px) {
   body.case-study h3 {
@@ -1476,15 +1515,37 @@ body.case-study h3 {
     line-height: 2rem;
   }
 }
+body.case-study h4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin: 1.5rem auto;
+}
+@media (min-width: 768px) {
+  body.case-study h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
 body.case-study strong {
   font-weight: 700;
 }
-body.case-study .graphic-full-width {
+body.case-study img {
+  display: block;
   border-radius: 1rem;
+}
+body.case-study img.graphic-full-width {
   display: block;
   width: 75%;
   margin: 1.5rem auto;
   filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.15));
+}
+body.case-study .skill-row {
+  margin: 3rem 0;
+}
+body.case-study .skill-row img {
+  max-height: 500px;
+  margin: 0 auto;
 }
 
 :root {
