@@ -792,7 +792,7 @@ header .nav-curtain ul li a.button-primary:active {
 }
 .resume .dotted-line {
   margin-top: 2.5rem;
-  height: 2400px;
+  height: 2800px;
   border-left: 8px dotted #E5E8EB;
   position: absolute;
   z-index: 1;
