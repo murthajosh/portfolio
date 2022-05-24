@@ -530,7 +530,6 @@ header .nav-curtain ul li a.button-primary:active {
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out;
   z-index: 4;
   width: 70%;
   max-width: 480px;
@@ -1409,7 +1408,6 @@ header .nav-curtain ul li a.button-primary:active {
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out;
   z-index: 4;
   width: 70%;
   max-width: 480px;
@@ -2080,7 +2078,6 @@ header .nav-curtain ul li a.button-primary:active {
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out;
   z-index: 4;
   width: 70%;
   max-width: 480px;
