@@ -3,4 +3,15 @@
     .section-heading {
         margin-bottom: $space-md-3;
     }
+
+    .collection-grid-item {
+        box-shadow: none!important;
+
+        &:hover,
+        &:focus {
+            h3 {
+                color: $primary-base;
+            }
+        }
+    }
 }
