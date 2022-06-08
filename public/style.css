@@ -54,7 +54,9 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item p {
+.collection-grid .collection-grid-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin: 0;
 }
@@ -283,7 +285,9 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item p {
+.collection-grid .collection-grid-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin: 0;
 }
@@ -1007,7 +1011,9 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item p {
+.collection-grid .collection-grid-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin: 0;
 }
@@ -1236,7 +1242,9 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item p {
+.collection-grid .collection-grid-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin: 0;
 }
@@ -1783,7 +1791,9 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item p {
+.collection-grid .collection-grid-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin: 0;
 }
@@ -2012,7 +2022,9 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item p {
+.collection-grid .collection-grid-item h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin: 0;
 }

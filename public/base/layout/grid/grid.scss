@@ -43,13 +43,14 @@
             }
         }
 
-        p {
+        h3 {
+            @include text-xl;
             font-weight: 700;
             margin: 0;
+        }
 
-            &.tech {
-                align-self: flex-end;
-            }
+        p.tech {
+            align-self: flex-end;
         }
     }
 }
