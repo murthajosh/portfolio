@@ -1445,7 +1445,7 @@ header .nav-curtain ul li a.button-primary:active {
 }
 .hero p {
   font-weight: 500;
-  margin: 0 auto;
+  margin: 1rem auto;
   max-width: 480px;
   z-index: 2;
 }
