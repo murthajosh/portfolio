@@ -1,6 +1,8 @@
 @import "../base/base.scss";
 
 body.contact {
+
+    text-align: center;
     h1 {
     
         font-weight: 700;
@@ -26,7 +28,8 @@ body.contact {
     }
     
     p {
-        max-width: 640px;
+        max-width: 480px;
+        margin: 1rem auto;
     }
     
     .my-email {
@@ -34,6 +37,21 @@ body.contact {
         margin-top: $space-md-3;
         font-family: 'Poppins', Sans-serif;
         font-weight: 700;
+
+        cursor: pointer;
+        font-size: 40px;
+        padding: .5rem;
+        
+        &:hover,
+        &:focus {
+            color: $primary-base;
+            filter: drop-shadow($shadow-sm);
+        }
+
+        &:active {
+            filter: none;
+            color: $primary-tint;
+        }
     
         @include text-2xl;
         
@@ -55,21 +73,7 @@ body.contact {
     }
 
     .copy-button {
-        cursor: pointer;
         font-size: 40px;
         padding: .5rem;
-        margin-top: $space-md-1;
-        width: max-content;
-
-        &:hover,
-        &:focus {
-            color: $primary-base;
-            filter: drop-shadow($shadow-sm);
-        }
-
-        &:active {
-            filter: none;
-            color: $primary-tint;
-        }
     }
 }
