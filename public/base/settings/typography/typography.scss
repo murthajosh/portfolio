@@ -30,4 +30,6 @@ p {
     @media ($screen-md) {
         @include text-lg;
     }
+
+    font-weight: 400;
 }
