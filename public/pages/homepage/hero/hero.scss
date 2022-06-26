@@ -59,10 +59,10 @@
         max-width: 480px;
         z-index: 2;
 
-        @include text-lg;
+        @include text-xl;
 
         @media ($screen-md) {
-            @include text-xl;
+            @include text-2xl;
         }
     }
 
