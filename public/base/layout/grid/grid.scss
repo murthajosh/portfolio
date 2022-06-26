@@ -13,21 +13,20 @@
     }
 
     .collection-grid-item {
+        align-items:center;
         background-color: white;
         background-repeat: no-repeat;
         background-size: 66%;
         background-position: center;
         border: 8px solid white;
         border-radius: .5rem;
-        box-shadow: $shadow-sm;
+        // box-shadow: $shadow-sm;
         color: $dark-base;
         cursor: pointer;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         height: 14rem;
-        display: flex;
-        flex-direction: column;
         padding: 1rem;
         text-decoration: none;
 
@@ -47,10 +46,6 @@
             @include text-xl;
             font-weight: 700;
             margin: 0;
-        }
-
-        p.tech {
-            align-self: flex-end;
         }
     }
 }

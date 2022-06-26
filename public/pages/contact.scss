@@ -39,7 +39,6 @@ body.contact {
         font-weight: 700;
 
         cursor: pointer;
-        font-size: 40px;
         padding: .5rem;
         
         &:hover,
@@ -53,27 +52,30 @@ body.contact {
             color: $primary-tint;
         }
     
-        @include text-2xl;
+        @include text-xl;
         
         @media ($screen-sm) {
-            @include text-3xl;
+            @include text-2xl;
         }
     
         @media ($screen-md) {
-            @include text-4xl;
+            @include text-3xl;
         }
     
         @media ($screen-lg) {
-            @include text-5xl;
+            @include text-4xl;
         }
     
         @media ($screen-xl) {
-            @include text-6xl;
+            @include text-5xl;
+        }
+
+        .copy-button {
+            display: block;
         }
     }
 
-    .copy-button {
-        font-size: 40px;
-        padding: .5rem;
+    .success-message {
+        color: #00E532;
     }
 }
