@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script defer src="./base/components/header/header.js"></script>
+    <script defer src="./base/components/popups/popups.js"></script>
     <title>Josh Murtha</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
 </head>
@@ -224,33 +225,33 @@
             <div class="container">
                 <h2 class="section-heading">Projects</h2>
                 <div class="collection-grid">
-                    <a href="#popup-hdpiano"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-hdpiano.webp">
+                    <a name="popup-hdpiano"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-hdpiano.webp">
                         <h3 class="project-name">HDpiano.com</h3>
                         <p class="tech">Design • PHP • CSS • ES6</p>
                     </a>
-                    <a href="#popup-chord-chemist"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-chordchemist.webp">
+                    <a name="popup-chord-chemist"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-chordchemist.webp">
                         <h3 class="project-name">Chord Chemist</h3>
                         <p class="tech">React • CSS</p>
                     </a>
-                    <a href="#popup-wepiano"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-wepiano.webp">
+                    <a name="popup-wepiano"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-wepiano.webp">
                         <h3 class="project-name">WePiano.com</h3>
                         <p class="tech">Design • CSS</p>
                     </a>
-                    <a href="#popup-keypix"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-keypix.webp">
+                    <a name="popup-keypix"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-keypix.webp">
                         <h3 class="project-name">KeyPix</h3>
                         <p class="tech">HTML • jQuery</p>
                     </a>
-                    <a href="#popup-bosstalk"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-bosstalk.webp">
+                    <a name="popup-bosstalk"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-bosstalk.webp">
                         <h3 class="project-name">BossTalk</h3>
                         <p class="tech">HTML • CSS • ES6</p>
                     </a>
-                    <a href="#popup-portfolio"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-portfolio.webp">
+                    <a name="popup-portfolio"class="collection-grid-item" style="background-image: url(./assets/project-images/mockup-portfolio.webp">
                         <h3 class="project-name">This Portfolio</h3>
                         <p class="tech">HTML • SASS • ES6</p>
                     </a>
                 </div>
             </div>
-            <div id="popup-hdpiano" class="overlay">
+            <div id="popup-hdpiano" class="overlay hidden">
                 <div class="popup">
                     <h3>HDpiano.com</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
@@ -261,7 +262,7 @@
                     </div>
                 </div>
             </div>
-            <div id="popup-chord-chemist" class="overlay">
+            <div id="popup-chord-chemist" class="overlay hidden">
                 <div class="popup">
                     <h3>Chord Chemist</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
@@ -274,7 +275,7 @@
                     </div>
                 </div>
             </div>
-            <div id="popup-wepiano" class="overlay">
+            <div id="popup-wepiano" class="overlay hidden">
                 <div class="popup">
                     <h3>WePiano</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
@@ -286,7 +287,7 @@
                     </div>
                 </div>
             </div>
-            <div id="popup-keypix" class="overlay">
+            <div id="popup-keypix" class="overlay hidden">
                 <div class="popup">
                     <h3>Keypix</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
@@ -299,7 +300,7 @@
                     </div>
                 </div>
             </div>
-            <div id="popup-bosstalk" class="overlay">
+            <div id="popup-bosstalk" class="overlay hidden">
                 <div class="popup">
                     <h3>BossTalk</h3>
                     <a href="#projects" class="close material-icons-round">close</a>
@@ -312,7 +313,7 @@
                     </div>
                 </div>
             </div>
-            <div id="popup-portfolio" class="overlay">
+            <div id="popup-portfolio" class="overlay hidden">
                 <div class="popup">
                     <h3>This Portfolio</h3>
                     <a href="#projects" class="close material-icons-round">close</a>

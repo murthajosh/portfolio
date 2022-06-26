@@ -6,14 +6,12 @@
     right: 0;
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
     z-index: 3;
 
-    &:target {
-        visibility: visible;
-        opacity: 1;
-    }
+    // &:target {
+    //     visibility: visible;
+    //     opacity: 1;
+    // }
 
     .popup {
         margin: 70px auto;

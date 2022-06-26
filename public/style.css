@@ -611,13 +611,7 @@ header .nav-curtain ul li a.button-primary:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
   z-index: 3;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
 }
 .overlay .popup {
   margin: 70px auto;
@@ -1293,13 +1287,7 @@ header .nav-curtain ul li a.button-primary:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
   z-index: 3;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
 }
 .overlay .popup {
   margin: 70px auto;
@@ -2347,13 +2335,7 @@ header .nav-curtain ul li a.button-primary:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
   z-index: 3;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
 }
 .overlay .popup {
   margin: 70px auto;
@@ -3113,13 +3095,7 @@ header .nav-curtain ul li a.button-primary:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
   z-index: 3;
-}
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
 }
 .overlay .popup {
   margin: 70px auto;
