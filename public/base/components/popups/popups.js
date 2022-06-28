@@ -18,3 +18,11 @@ overlays.forEach(overlay => {
         }
     })
 })
+
+document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape') {
+        overlays.forEach(overlay => {
+            overlay.classList.add('hidden')
+        })
+    }
+})
