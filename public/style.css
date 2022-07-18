@@ -1607,7 +1607,7 @@ header .nav-curtain ul li a.button-primary:active {
 }
 .skill-row .col-6 img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-  max-width: 479px;
+  max-width: 400px;
   margin: 2rem auto;
 }
 @media (min-width: 768px) {

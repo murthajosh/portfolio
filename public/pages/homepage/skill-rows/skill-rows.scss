@@ -25,7 +25,7 @@
 
         img {
             filter: drop-shadow($shadow-sm);
-            max-width: 479px;
+            max-width: 400px;
             margin: 2rem auto;
 
             @media ($screen-md) {
