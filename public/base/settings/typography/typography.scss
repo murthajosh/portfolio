@@ -2,34 +2,46 @@
     
 h2.section-heading {
 
-    font-weight: 700;
+    font-weight: 500;
+    margin: 1rem 0 1rem 0;
+    text-align: center;
     
-    @include text-4xl;
+    @include text-3xl;
 
     @media ($screen-sm){
-        @include text-5xl;
+        @include text-4xl;
     }
 
     @media ($screen-md){
-        @include text-6xl;
+        @include text-5xl;
     }
 
     @media ($screen-lg){
-        @include text-7xl;
+        @include text-6xl;
     }
 
     @media ($screen-xl){
-        @include text-8xl;
+        @include text-7xl;
+    }
+}
+
+h3.skill-heading {
+    font-weight: 700;
+    @include text-xl;
+    margin-top: $space-md-1;
+
+    @media ($screen-md) {
+        @include text-2xl;
     }
 }
 
 p {
+    font-weight: 400;
+
     @include text-base;
     margin-top: $space-md-1;
 
     @media ($screen-md) {
         @include text-lg;
     }
-
-    font-weight: 400;
 }

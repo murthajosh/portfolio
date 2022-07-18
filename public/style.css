@@ -33,6 +33,7 @@ a {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -94,7 +95,6 @@ a {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -189,40 +189,55 @@ section:not(.hero) {
 }
 
 h2.section-heading {
-  font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 @media (min-width: 640px) {
+  h2.section-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
   h2.section-heading {
     font-size: 2.5rem;
     line-height: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   h2.section-heading {
     font-size: 3rem;
     line-height: 1;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   h2.section-heading {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
-@media (min-width: 1280px) {
-  h2.section-heading {
-    font-size: 4.5rem;
-    line-height: 1;
+
+h3.skill-heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+@media (min-width: 768px) {
+  h3.skill-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 p {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
-  font-weight: 400;
 }
 @media (min-width: 768px) {
   p {
@@ -255,6 +270,7 @@ p {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -316,7 +332,6 @@ p {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -710,6 +725,7 @@ a {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -771,7 +787,6 @@ a {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -866,40 +881,55 @@ section:not(.hero) {
 }
 
 h2.section-heading {
-  font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 @media (min-width: 640px) {
+  h2.section-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
   h2.section-heading {
     font-size: 2.5rem;
     line-height: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   h2.section-heading {
     font-size: 3rem;
     line-height: 1;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   h2.section-heading {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
-@media (min-width: 1280px) {
-  h2.section-heading {
-    font-size: 4.5rem;
-    line-height: 1;
+
+h3.skill-heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+@media (min-width: 768px) {
+  h3.skill-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 p {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
-  font-weight: 400;
 }
 @media (min-width: 768px) {
   p {
@@ -932,6 +962,7 @@ p {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -993,7 +1024,6 @@ p {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -1551,8 +1581,6 @@ header .nav-curtain ul li a.button-primary:active {
   }
 }
 .skill-row {
-  text-align: center;
-  align-items: center;
   flex-direction: column;
 }
 .skill-row.reverse-stack {
@@ -1566,20 +1594,20 @@ header .nav-curtain ul li a.button-primary:active {
 @media (min-width: 768px) {
   .skill-row {
     flex-direction: row;
-    text-align: left;
   }
 }
 .skill-row .col-6 {
   flex-grow: 1;
   flex-shrink: 1;
   padding: 0 1rem;
+  text-align: center;
 }
 .skill-row .col-6 p {
   margin: 1rem 0;
 }
 .skill-row .col-6 img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
-  max-width: 300px;
+  max-width: 479px;
   margin: 2rem auto;
 }
 @media (min-width: 768px) {
@@ -1593,16 +1621,11 @@ header .nav-curtain ul li a.button-primary:active {
   display: flex;
   justify-content: space-around;
 }
-@media (min-width: 768px) {
-  .skill-row .col-6 ul.tools-list {
-    justify-content: flex-start;
-  }
-}
 .skill-row .col-6 li {
   margin-right: 1rem;
 }
 .skill-row .col-6 li .tech-logo svg {
-  height: 24px;
+  height: 48px;
 }
 
 .case-studies .section-heading {
@@ -1759,6 +1782,7 @@ a {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -1820,7 +1844,6 @@ a {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -1915,40 +1938,55 @@ section:not(.hero) {
 }
 
 h2.section-heading {
-  font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 @media (min-width: 640px) {
+  h2.section-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
   h2.section-heading {
     font-size: 2.5rem;
     line-height: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   h2.section-heading {
     font-size: 3rem;
     line-height: 1;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   h2.section-heading {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
-@media (min-width: 1280px) {
-  h2.section-heading {
-    font-size: 4.5rem;
-    line-height: 1;
+
+h3.skill-heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+@media (min-width: 768px) {
+  h3.skill-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 p {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
-  font-weight: 400;
 }
 @media (min-width: 768px) {
   p {
@@ -1981,6 +2019,7 @@ p {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -2042,7 +2081,6 @@ p {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -2520,6 +2558,7 @@ a {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -2581,7 +2620,6 @@ a {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }
@@ -2676,40 +2714,55 @@ section:not(.hero) {
 }
 
 h2.section-heading {
-  font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 @media (min-width: 640px) {
+  h2.section-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
   h2.section-heading {
     font-size: 2.5rem;
     line-height: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   h2.section-heading {
     font-size: 3rem;
     line-height: 1;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   h2.section-heading {
     font-size: 3.75rem;
     line-height: 1;
   }
 }
-@media (min-width: 1280px) {
-  h2.section-heading {
-    font-size: 4.5rem;
-    line-height: 1;
+
+h3.skill-heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+@media (min-width: 768px) {
+  h3.skill-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
 p {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 0.5rem;
-  font-weight: 400;
 }
 @media (min-width: 768px) {
   p {
@@ -2742,6 +2795,7 @@ p {
   background-position: center;
   border: 8px solid white;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   color: #1E232C;
   cursor: pointer;
   display: flex;
@@ -2803,7 +2857,6 @@ p {
 }
 @media (min-width: 1536px) {
   .container {
-    max-width: 1536px;
     padding-left: 16rem;
     padding-right: 16rem;
   }

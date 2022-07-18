@@ -1,6 +1,4 @@
 .skill-row {
-    text-align: center;
-    align-items: center;
     flex-direction: column;
 
     &.reverse-stack {
@@ -13,13 +11,13 @@
 
     @media ($screen-md){
         flex-direction: row;
-        text-align: left;
     }
 
     .col-6 {
         flex-grow: 1;
         flex-shrink: 1;
         padding: 0 1rem;
+        text-align: center;
 
         p {
             margin:  1rem 0;
@@ -27,7 +25,7 @@
 
         img {
             filter: drop-shadow($shadow-sm);
-            max-width: 300px;
+            max-width: 479px;
             margin: 2rem auto;
 
             @media ($screen-md) {
@@ -35,21 +33,18 @@
                 margin: 0;
             }
         }
+
         ul.tools-list {
             margin-top: $space-md-1;
             display: flex;
-            justify-content: space-around;
-
-            @media ($screen-md) {
-                justify-content: flex-start;
-            }
+            justify-content: space-around;     
         }
 
         li {
 
             margin-right: 1rem;
             .tech-logo svg {
-                height: 24px;
+                height: 48px;
             }
         }
     }
