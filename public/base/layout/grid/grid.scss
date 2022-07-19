@@ -49,3 +49,43 @@
         }
     }
 }
+
+.case-studies-grid {
+    display: grid;
+    gap: 1rem ;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+
+    @media ($screen-sm) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px 200px;
+    }
+
+    @media ($screen-lg) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .case-studies-grid-item {
+        border: 1px solid red;
+
+        &.item-1 {
+
+            @media ($screen-lg) {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+        }
+
+        &.item-2 {
+
+            @media ($screen-lg) {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+        }
+    }
+}
