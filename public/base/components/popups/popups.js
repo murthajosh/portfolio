@@ -1,4 +1,4 @@
-const triggers = document.querySelectorAll('.collection-grid-item')
+const triggers = document.querySelectorAll('.dev-projects-grid-item')
 const overlays = document.querySelectorAll('.overlay')
 
 triggers.forEach(trigger => {

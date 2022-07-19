@@ -9,23 +9,23 @@ a {
   text-decoration: none;
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ a {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -53,7 +53,7 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -246,23 +246,23 @@ p {
   }
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ p {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -290,7 +290,7 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -701,23 +701,23 @@ a {
   text-decoration: none;
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -735,7 +735,7 @@ a {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -745,7 +745,7 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -938,23 +938,23 @@ p {
   }
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -972,7 +972,7 @@ p {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -982,7 +982,7 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -1758,23 +1758,23 @@ a {
   text-decoration: none;
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -1792,7 +1792,7 @@ a {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -1802,7 +1802,7 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -1995,23 +1995,23 @@ p {
   }
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -2029,7 +2029,7 @@ p {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -2039,7 +2039,7 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -2534,23 +2534,23 @@ a {
   text-decoration: none;
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -2568,7 +2568,7 @@ a {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -2578,7 +2578,7 @@ a {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
@@ -2771,23 +2771,23 @@ p {
   }
 }
 
-.collection-grid {
+.dev-projects-grid {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 640px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1024px) {
-  .collection-grid {
+  .dev-projects-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-.collection-grid .collection-grid-item {
+.dev-projects-grid .dev-projects-grid-item {
   align-items: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -2805,7 +2805,7 @@ p {
   padding: 1rem;
   text-decoration: none;
 }
-.collection-grid .collection-grid-item:hover, .collection-grid .collection-grid-item:focus {
+.dev-projects-grid .dev-projects-grid-item:hover, .dev-projects-grid .dev-projects-grid-item:focus {
   animation: 300ms logoGrow forwards;
 }
 @keyframes logoGrow {
@@ -2815,7 +2815,7 @@ p {
     border: 8px solid #9DC9F1;
   }
 }
-.collection-grid .collection-grid-item h3 {
+.dev-projects-grid .dev-projects-grid-item h3 {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
