@@ -65,20 +65,30 @@ a {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -90,10 +100,50 @@ a {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -339,20 +389,30 @@ p {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -364,10 +424,50 @@ p {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -831,20 +931,30 @@ a {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -856,10 +966,50 @@ a {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -1105,20 +1255,30 @@ p {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -1130,10 +1290,50 @@ p {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -1962,20 +2162,30 @@ a {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -1987,10 +2197,50 @@ a {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -2236,20 +2486,30 @@ p {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -2261,10 +2521,50 @@ p {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -2812,20 +3112,30 @@ a {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -2837,10 +3147,50 @@ a {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
@@ -3086,20 +3436,30 @@ p {
   gap: 1rem;
   margin: 0 auto;
   grid-template-columns: 1fr;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px;
 }
 @media (min-width: 640px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
   }
 }
 @media (min-width: 1024px) {
   .case-studies-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
   }
 }
 .case-studies-grid .case-studies-grid-item {
   border: 1px solid red;
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-1 {
@@ -3111,10 +3471,50 @@ p {
 }
 @media (min-width: 1024px) {
   .case-studies-grid .case-studies-grid-item.item-2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
+  }
+}
+@media (min-width: 640px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+}
+@media (min-width: 1024px) {
+  .case-studies-grid .case-studies-grid-item.item-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 }
 
