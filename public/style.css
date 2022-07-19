@@ -797,7 +797,7 @@ header .nav-curtain ul li a.button-primary:active {
   z-index: 3;
 }
 .overlay .popup {
-  margin: 70px auto;
+  margin: 30vh auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -1657,7 +1657,7 @@ header .nav-curtain ul li a.button-primary:active {
   z-index: 3;
 }
 .overlay .popup {
-  margin: 70px auto;
+  margin: 30vh auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -2896,7 +2896,7 @@ header .nav-curtain ul li a.button-primary:active {
   z-index: 3;
 }
 .overlay .popup {
-  margin: 70px auto;
+  margin: 30vh auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -3840,7 +3840,7 @@ header .nav-curtain ul li a.button-primary:active {
   z-index: 3;
 }
 .overlay .popup {
-  margin: 70px auto;
+  margin: 30vh auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
