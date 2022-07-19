@@ -1782,9 +1782,8 @@ header .nav-curtain ul li a.button-primary:active {
   }
 }
 .hero .tagline {
-  font-weight: 500;
   margin: 1rem auto;
-  max-width: 480px;
+  max-width: 600px;
   z-index: 2;
   font-size: 1.25rem;
   line-height: 1.75rem;

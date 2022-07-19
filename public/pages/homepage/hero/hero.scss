@@ -54,9 +54,8 @@
     }
 
     .tagline {
-        font-weight: 500;
         margin: 1rem auto;
-        max-width: 480px;
+        max-width: 600px;
         z-index: 2;
 
         @include text-xl;
