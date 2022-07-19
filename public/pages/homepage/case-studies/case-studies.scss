@@ -5,7 +5,25 @@
     }
 
     .case-studies-grid-item {
+        background: $light-tint;
+        border-radius: .5rem;
         box-shadow: none!important;
+        padding: 1rem;
+
+        h3 {
+            @include text-xl;
+
+            font-weight: 700;
+            color: $dark-base;
+
+            &:visited {
+                color: red;
+            }
+        }
+
+        p {
+            color: $dark-base;
+        }
 
         &:hover,
         &:focus {
