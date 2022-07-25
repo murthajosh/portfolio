@@ -13,6 +13,12 @@
         flex-direction: row;
     }
 
+    h3.skill-heading {
+        @media ($screen-md) {
+            text-align: left;
+        }
+    }
+
     .col-6 {
         flex-grow: 1;
         flex-shrink: 1;
@@ -21,6 +27,10 @@
 
         p {
             margin:  1rem 0;
+
+            @media ($screen-md) {
+                text-align: left;
+            }
         }
 
         img {
@@ -31,20 +41,6 @@
             @media ($screen-md) {
                 max-width: 80%;
                 margin: 0;
-            }
-        }
-
-        ul.tools-list {
-            margin-top: $space-md-1;
-            display: flex;
-            justify-content: space-around;     
-        }
-
-        li {
-
-            margin-right: 1rem;
-            .tech-logo svg {
-                height: 48px;
             }
         }
     }

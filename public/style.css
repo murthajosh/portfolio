@@ -1931,6 +1931,11 @@ header .nav-curtain ul li a.button-primary:active {
     flex-direction: row;
   }
 }
+@media (min-width: 768px) {
+  .skill-row h3.skill-heading {
+    text-align: left;
+  }
+}
 .skill-row .col-6 {
   flex-grow: 1;
   flex-shrink: 1;
@@ -1939,6 +1944,11 @@ header .nav-curtain ul li a.button-primary:active {
 }
 .skill-row .col-6 p {
   margin: 1rem 0;
+}
+@media (min-width: 768px) {
+  .skill-row .col-6 p {
+    text-align: left;
+  }
 }
 .skill-row .col-6 img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
@@ -1950,17 +1960,6 @@ header .nav-curtain ul li a.button-primary:active {
     max-width: 80%;
     margin: 0;
   }
-}
-.skill-row .col-6 ul.tools-list {
-  margin-top: 0.5rem;
-  display: flex;
-  justify-content: space-around;
-}
-.skill-row .col-6 li {
-  margin-right: 1rem;
-}
-.skill-row .col-6 li .tech-logo svg {
-  height: 48px;
 }
 
 .case-studies {
